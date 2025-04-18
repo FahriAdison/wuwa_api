@@ -261,29 +261,15 @@
     },
     {
       "name": "Rover",
-      "attribute": "Multi-Element",
+      "attribute": "Multi",
       "weapon": "Sword",
       "rarity": 5,
       "class": "Arbiter",
       "birthday": "Unknown",
       "quote": "Is this the beginning of a new journey? Brimming with novel sounds, and untold stories...",
       "description": "Awakened with an unknown past, Rover is an Arbiter who embarks on a journey to uncover the truth to regain their lost memories. As a unique Resonator, Rover can harness multiple elemental powers.",
-      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/7/70/Rover_1.png/revision/latest?cb=20250418030104",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/7/70/Rover_1.png/revision/latest?cb=20240420140302",
       "version": "1.0",
-      "variants": [
-        {
-          "name": "Rover-Aero",
-          "attribute": "Aero",
-          "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c5/Rover-Aero_Card.png/revision/latest?cb=20250418071902",
-          "description": "One of the Arbiters from the Black Shores, Rover-Aero wields a sword infused with the power of wind."
-        },
-        {
-          "name": "Rover-Spectro",
-          "attribute": "Spectro",
-          "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d2/Rover-Spectro_Card.png/revision/latest?cb=20250418071903",
-          "description": "One of the Arbiters from the Black Shores, Rover-Spectro uses spectro energy to enhance their swordsmanship."
-        }
-      ]
     },
     {
       "name": "Phoebe",
@@ -294,7 +280,7 @@
       "birthday": "Unknown",
       "quote": "The Order of the Deep holds many secrets, as do I.",
       "description": "A mysterious member of the Order of the Deep from Rinascita, Phoebe uses her rectifier to channel spectro energy.",
-      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a4/Phoebe_Card.png/revision/latest?cb=20250418071900",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/5/54/Phoebe_Card.png/revision/latest?cb=20241122041938",
       "version": "2.1"
     },
     {
@@ -306,7 +292,7 @@
       "birthday": "Unknown",
       "quote": "The Troupe of Fools brings entertainment through chaos.",
       "description": "A powerful member of the Troupe of Fools from Rinascita, Roccia uses havoc-infused gauntlets in combat.",
-      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b1/Roccia_Card.png/revision/latest?cb=20250418071901",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/ea/Roccia_Card.png/revision/latest?cb=20241122070750",
       "version": "2.0"
     },
     {
@@ -318,7 +304,7 @@
       "birthday": "Unknown",
       "quote": "Development requires both creation and destruction.",
       "description": "A member of the Ministry of Development in Jinzhou, Taoqi wields a massive broadblade infused with havoc energy.",
-      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/7/7d/Taoqi_Card.png/revision/latest?cb=20250418071904",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0b/Taoqi.jpg/revision/latest?cb=20231219185115",
       "version": "1.0"
     },
     {
@@ -330,7 +316,7 @@
       "birthday": "Unknown",
       "quote": "The Pioneer Association lights the way for all.",
       "description": "A member of the Pioneer Association in Jinzhou, Verina uses her rectifier to channel spectro energy for both exploration and combat.",
-      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e8/Verina_Card.png/revision/latest?cb=20250418071905",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/7/7c/Verina%27s_Card.jpg/revision/latest?cb=20240511130959",
       "version": "1.0"
     },
     {
@@ -342,7 +328,7 @@
       "birthday": "Unknown",
       "quote": "Knowledge and power go hand in hand.",
       "description": "A scholar from Huaxu Academy in Jinzhou, Xiangli Yao uses electro-infused gauntlets in combat.",
-      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f2/Xiangli_Yao_Card.png/revision/latest?cb=20250418071906",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e9/Xiangli_Yao_Card.png/revision/latest?cb=20240708200915",
       "version": "1.2"
     },
     {
@@ -354,7 +340,7 @@
       "birthday": "Unknown",
       "quote": "The Public Security Bureau ensures order through power.",
       "description": "A member of the Public Security Bureau in Jinzhou, Yinlin uses her rectifier to channel electro energy.",
-      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1c/Yinlin_Card.png/revision/latest?cb=20250418071907",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b4/Yinlin%27s_Card.jpg/revision/latest?cb=20241007222006",
       "version": "1.0"
     },
     {
@@ -366,8 +352,44 @@
       "birthday": "Unknown",
       "quote": "The cold never bothered me anyway.",
       "description": "A resident of Chongzi in Huanglong, Youhu uses ice-infused gauntlets in combat.",
-      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b9/Youhu_Card.png/revision/latest?cb=20250418071908",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b6/Youhu_Card.png/revision/latest?cb=20240813132555",
       "version": "1.1"
-    }
+    },
+    {
+      "name": "Yuanwu",
+      "attribute": "Electro",
+      "weapon": "Gauntlets",
+      "rarity": 4,
+      "class": "Natural",
+      "birthday": "Unknown",
+      "quote": "Assuming I've thought my decisions through and acted with integrity, I am content.",
+      "description": "He owns a boxing gym where he teaches martial arts and health management, and is well-respected in the community for his cordial demeanor and pleasant temperament.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/0/02/Yuanwu_.jpg/revision/latest?cb=20231221175828",
+      "version": "1.0"
+    },
+    {
+      "name": "Zani",
+      "attribute": "Spectro",
+      "weapon": "Gauntlets",
+      "rarity": 5,
+      "class": "Unknown",
+      "birthday": "Unknown",
+      "quote": "Work will keep coming. Don't forget to live a little.",
+      "description": "She is a staff member of the Montelli Family's Averardo Bank in Ragunna. As a serious and reliable Montelli employee, Zani follows a strict routine and manages tasks with ease. For years, she has clocked in on time without fail, finding as much enjoyment in her well-ordered life as in her carefully planned moments of leisure.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/d/df/Zani_Card.png/revision/latest?cb=20241122071143",
+      "version": "2.3"
+      },
+      {
+      "name": "Zhezhi",
+      "attribute": "Glacio",
+      "weapon": "Rectifier",
+      "rarity": 5,
+      "class": "Congenital",
+      "birthday": "Unknown",
+      "quote": "What I wanted to say is, the sunlight on you right now is so beautiful, Can I... paint you?",
+      "description": "She is a commissioned painter, quiet and shy with a dedication to her craft. She's not very eloquent, but her persistence and love for painting speak volumes.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f0/Zhezhi_Card.png/revision/latest?cb=20240708201004",
+      "version": "1.2"
+      }
   ]
 }
