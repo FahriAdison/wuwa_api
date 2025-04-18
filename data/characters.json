@@ -1,0 +1,251 @@
+{
+  "characters": [
+    {
+      "name": "Cantarella",
+      "attribute": "Havoc",
+      "weapon": "Rectifier",
+      "rarity": 5,
+      "class": "Unknown",
+      "birthday": "Unknown",
+      "quote": "The sea is a mirror, it reflects the shape of your soul in it's tide.",
+      "description": "The Fisalia family's thirty-sixth head, Cantarella Fisalia. She locks your gaze with eyes as deep as the ocean, where dark tides seem to surge and swirl.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/d/d5/Cantarella.png",
+      "skills": [
+        {
+          "name": "Illusion Collapse",
+          "type": "Basic Attack",
+          "description": "Performs a series of attacks with her Rectifier"
+        }
+      ],
+      "version": "2.2"
+    },
+    {
+      "name": "Rover",
+      "attribute": "Aero",
+      "weapon": "Sword",
+      "rarity": 5,
+      "class": "Arbiter",
+      "birthday": "Unknown",
+      "quote": "Is this the beginning of a new journey? Brimming with novel sounds, and untold stories...",
+      "description": "Awakened with an unknown past, Rover is an Arbiter who embarks on a journey to uncover the truth to regain their lost memories.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/e/e5/Rover.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Ciaccona",
+      "attribute": "Aero",
+      "weapon": "Unknown",
+      "rarity": 5,
+      "class": "Unknown",
+      "birthday": "Unknown",
+      "quote": "Off we go! May my poems light the way on your path ahead!",
+      "description": "A free-spirited, romantic, sincere, and passionate bard. On her journey, she sang radiant poems of saints and heroes, weaving tales of people, miracles, turmoil, and suffering.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/c/c1/Ciaccona.png",
+      "version": "2.3"
+    },
+    {
+      "name": "Jiyan",
+      "attribute": "Aero",
+      "weapon": "Broadblade",
+      "rarity": 5,
+      "class": "Mutant",
+      "birthday": "Unknown",
+      "quote": "The wind carries my blade, and my blade carries justice.",
+      "description": "A member of the Midnight Rangers, Jiyan is a skilled warrior who uses the power of wind to enhance his combat abilities.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/3/3f/Jiyan.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Aalto",
+      "attribute": "Aero",
+      "weapon": "Pistols",
+      "rarity": 5,
+      "class": "Congenital",
+      "birthday": "Unknown",
+      "quote": "The Black Shores will always be my home, no matter where I go.",
+      "description": "A member of the Black Shores, Aalto is a skilled marksman who uses dual pistols infused with the power of wind.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/a/a1/Aalto.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Jianxin",
+      "attribute": "Aero",
+      "weapon": "Gauntlets",
+      "rarity": 4,
+      "class": "Natural",
+      "birthday": "Unknown",
+      "quote": "My fists are guided by the wind, and my heart by honor.",
+      "description": "A practitioner of Fengyiquan, Jianxin uses martial arts enhanced by the power of wind.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/2/2f/Jianxin.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Yangyang",
+      "attribute": "Aero",
+      "weapon": "Unknown",
+      "rarity": 4,
+      "class": "Unknown",
+      "birthday": "Unknown",
+      "quote": "The wind whispers secrets to those who listen carefully.",
+      "description": "A mysterious figure who harnesses the power of wind for both combat and healing.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/5/5c/Yangyang.png",
+      "version": "1.2"
+    },
+    {
+      "name": "Calcharo",
+      "attribute": "Electro",
+      "weapon": "Broadblade",
+      "rarity": 5,
+      "class": "Natural",
+      "birthday": "Unknown",
+      "quote": "Lightning strikes where I command, and my blade follows.",
+      "description": "A member of the Ghost Hounds from Huanglong, Calcharo wields a massive broadblade charged with electric energy.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/c/c3/Calcharo.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Lumi",
+      "attribute": "Electro",
+      "weapon": "Broadblade",
+      "rarity": 5,
+      "class": "Congenital",
+      "birthday": "Unknown",
+      "quote": "Logistics and lightning - both require precision and speed.",
+      "description": "A member of Lollo Logistics from Yuezhou, Lumi combines her business acumen with her electro powers.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/d/d8/Lumi.png",
+      "version": "1.4"
+    },
+    {
+      "name": "Changli",
+      "attribute": "Fusion",
+      "weapon": "Sword",
+      "rarity": 5,
+      "class": "Natural",
+      "birthday": "Unknown",
+      "quote": "The flames of justice burn eternal in my blade.",
+      "description": "A representative of City Hall in Jinzhou, Changli uses her fusion powers to protect the citizens.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/7/7d/Changli.png",
+      "version": "1.1"
+    },
+    {
+      "name": "Encore",
+      "attribute": "Fusion",
+      "weapon": "Rectifier",
+      "rarity": 5,
+      "class": "Congenital",
+      "birthday": "Unknown",
+      "quote": "Every performance deserves an encore, especially the final one.",
+      "description": "A member of the Black Shores, Encore uses her rectifier to channel fusion energy in devastating attacks.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/e/e1/Encore.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Chixia",
+      "attribute": "Fusion",
+      "weapon": "Pistols",
+      "rarity": 4,
+      "class": "Mutant",
+      "birthday": "Unknown",
+      "quote": "The Public Security Bureau ensures that justice burns bright.",
+      "description": "A member of the Public Security Bureau in Huanglong, Chixia uses dual pistols infused with fusion energy.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/c/c9/Chixia.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Mortefi",
+      "attribute": "Fusion",
+      "weapon": "Pistols",
+      "rarity": 4,
+      "class": "Unknown",
+      "birthday": "Unknown",
+      "quote": "Fire cleanses all impurities, including doubt.",
+      "description": "A mysterious gunslinger who uses fusion-infused bullets to eliminate threats.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/f/f2/Mortefi.png",
+      "version": "1.3"
+    },
+    {
+      "name": "Brant",
+      "attribute": "Fusion",
+      "weapon": "Sword",
+      "rarity": 5,
+      "class": "Natural",
+      "birthday": "Unknown",
+      "quote": "The Troupe of Fools brings both entertainment and destruction.",
+      "description": "A member of the Troupe of Fools from Rinascita, Brant combines showmanship with deadly fusion attacks.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/b/b5/Brant.png",
+      "version": "2.1"
+    },
+    {
+      "name": "Baizhi",
+      "attribute": "Glacio",
+      "weapon": "Rectifier",
+      "rarity": 5,
+      "class": "Mutant",
+      "birthday": "Unknown",
+      "quote": "Knowledge is like ice - beautiful, clear, and potentially dangerous.",
+      "description": "A scholar from Huaxu Academy in Jinzhou, Baizhi uses her rectifier to channel glacio energy for both offense and defense.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/b/b2/Baizhi.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Lingyang",
+      "attribute": "Glacio",
+      "weapon": "Gauntlets",
+      "rarity": 4,
+      "class": "Natural",
+      "birthday": "Unknown",
+      "quote": "The Liondance Troupe's performances are as beautiful as freshly fallen snow.",
+      "description": "A performer from the Liondance Troupe, Lingyang uses ice-infused martial arts in both performances and combat.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/l/l9/Lingyang.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Carlotta",
+      "attribute": "Glacio",
+      "weapon": "Pistols",
+      "rarity": 5,
+      "class": "Mutant",
+      "birthday": "Unknown",
+      "quote": "The Montelli Family's influence is as vast as a glacier.",
+      "description": "A member of the Montelli Family from Rinascita, Carlotta uses dual pistols that fire ice-infused bullets.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/c/c7/Carlotta.png",
+      "version": "2.0"
+    },
+    {
+      "name": "Camellya",
+      "attribute": "Havoc",
+      "weapon": "Sword",
+      "rarity": 5,
+      "class": "Artificial",
+      "birthday": "Unknown",
+      "quote": "Chaos is simply order waiting to be deciphered.",
+      "description": "A member of the Black Shores, Camellya wields a sword infused with havoc energy that can tear through reality.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/c/c5/Camellya.png",
+      "version": "1.4"
+    },
+    {
+      "name": "Danjin",
+      "attribute": "Havoc",
+      "weapon": "Sword",
+      "rarity": 4,
+      "class": "Mutant",
+      "birthday": "Unknown",
+      "quote": "The Midnight Rangers walk the line between order and chaos.",
+      "description": "A member of the Midnight Rangers, Danjin uses havoc energy to enhance his swordsmanship.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/d/d3/Danjin.png",
+      "version": "1.0"
+    },
+    {
+      "name": "Jinhsi",
+      "attribute": "Spectro",
+      "weapon": "Broadblade",
+      "rarity": 5,
+      "class": "Congenital",
+      "birthday": "Unknown",
+      "quote": "Light reveals truth, but sometimes truth is better left hidden.",
+      "description": "A representative of City Hall in Jinzhou, Jinhsi uses spectro energy to both illuminate and blind.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/j/j1/Jinhsi.png",
+      "version": "1.1"
+    }
+  ]
+}

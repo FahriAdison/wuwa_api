@@ -1,0 +1,100 @@
+{
+  "sonatas": [
+    {
+      "name": "Gusts of Welkin",
+      "rarity": 5,
+      "description": "A sonata that resonates with the power of the wind, allowing the wearer to harness the freedom of the skies.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/a/a3/Gusts_of_Welkin.png",
+      "effects": {
+        "2piece": "Increases Aero DMG by 15%",
+        "4piece": "After using a Forte Skill, increases Movement SPD by 10% and ATK by 18% for 8s"
+      },
+      "recommendedFor": ["Ciaccona", "Jiyan", "Aalto"],
+      "version": "2.2"
+    },
+    {
+      "name": "Thundering Fury",
+      "rarity": 5,
+      "description": "A sonata that channels the raw power of lightning, crackling with electric energy.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/e/e4/Thundering_Fury.png",
+      "effects": {
+        "2piece": "Increases Electro DMG by 15%",
+        "4piece": "After using a Forte Skill, the next Basic Attack has a 80% chance to deal 40% additional Electro DMG"
+      },
+      "recommendedFor": ["Calcharo", "Lumi"],
+      "version": "1.0"
+    },
+    {
+      "name": "Blazing Heart",
+      "rarity": 5,
+      "description": "A sonata that burns with passionate flames, igniting the spirit of the wearer.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/b/b7/Blazing_Heart.png",
+      "effects": {
+        "2piece": "Increases Fusion DMG by 15%",
+        "4piece": "When HP is above 70%, increases CRIT Rate by 12% and CRIT DMG by 24%"
+      },
+      "recommendedFor": ["Changli", "Encore", "Brant"],
+      "version": "1.0"
+    },
+    {
+      "name": "Frozen Eternity",
+      "rarity": 5,
+      "description": "A sonata that preserves the essence of ice, offering both protection and deadly cold.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/f/f9/Frozen_Eternity.png",
+      "effects": {
+        "2piece": "Increases Glacio DMG by 15%",
+        "4piece": "After using a Forte Skill, creates a shield equal to 20% of Max HP for 10s. While shielded, increases DMG by 15%"
+      },
+      "recommendedFor": ["Baizhi", "Carlotta"],
+      "version": "1.0"
+    },
+    {
+      "name": "Chaotic Entropy",
+      "rarity": 5,
+      "description": "A sonata that embraces the unpredictable nature of chaos, constantly shifting and changing.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/c/c2/Chaotic_Entropy.png",
+      "effects": {
+        "2piece": "Increases Havoc DMG by 15%",
+        "4piece": "After using a Forte Skill, gain a random buff for 10s: 25% ATK, 20% CRIT DMG, or 12% CRIT Rate"
+      },
+      "recommendedFor": ["Cantarella", "Camellya"],
+      "version": "2.2"
+    },
+    {
+      "name": "Radiant Dawn",
+      "rarity": 5,
+      "description": "A sonata that shines with the brilliance of the morning sun, revealing hidden truths.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/r/r1/Radiant_Dawn.png",
+      "effects": {
+        "2piece": "Increases Spectro DMG by 15%",
+        "4piece": "After using a Forte Skill, increases all Elemental DMG by 12% for 8s"
+      },
+      "recommendedFor": ["Jinhsi", "Shorekeeper"],
+      "version": "1.0"
+    },
+    {
+      "name": "Warrior's Will",
+      "rarity": 4,
+      "description": "A sonata that embodies the determination of a warrior, never yielding in the face of adversity.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/w/w3/Warriors_Will.png",
+      "effects": {
+        "2piece": "Increases ATK by 12%",
+        "4piece": "After defeating an enemy, increases ATK by 15% for 15s, stacks up to 3 times"
+      },
+      "recommendedFor": ["Danjin", "Chixia", "Lingyang"],
+      "version": "1.0"
+    },
+    {
+      "name": "Ocean's Embrace",
+      "rarity": 5,
+      "description": "A sonata that captures the vast depths of the sea, both nurturing and overwhelming.",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/o/o8/Oceans_Embrace.png",
+      "effects": {
+        "2piece": "Increases Max HP by 20%",
+        "4piece": "When healing an ally, 30% of the healing amount is converted to a shield that lasts for 8s"
+      },
+      "recommendedFor": ["Support characters"],
+      "version": "2.2"
+    }
+  ]
+}
