@@ -9,7 +9,7 @@
       "birthday": "Unknown",
       "quote": "The sea is a mirror, it reflects the shape of your soul in it's tide.",
       "description": "The Fisalia family's thirty-sixth head, Cantarella Fisalia. She locks your gaze with eyes as deep as the ocean, where dark tides seem to surge and swirl.",
-      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/0/01/Cantarella_Card.png/revision/latest?cb=20250221143534",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/0/01/Cantarella_Card.png/revision/latest?cb=20250418030103",
       "skills": [
         {
           "name": "Illusion Collapse",
@@ -20,18 +20,6 @@
       "version": "2.2"
     },
     {
-      "name": "Rover",
-      "attribute": "Aero",
-      "weapon": "Sword",
-      "rarity": 5,
-      "class": "Arbiter",
-      "birthday": "Unknown",
-      "quote": "Is this the beginning of a new journey? Brimming with novel sounds, and untold stories...",
-      "description": "Awakened with an unknown past, Rover is an Arbiter who embarks on a journey to uncover the truth to regain their lost memories.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/e/e5/Rover.png",
-      "version": "1.0"
-    },
-    {
       "name": "Ciaccona",
       "attribute": "Aero",
       "weapon": "Unknown",
@@ -40,7 +28,7 @@
       "birthday": "Unknown",
       "quote": "Off we go! May my poems light the way on your path ahead!",
       "description": "A free-spirited, romantic, sincere, and passionate bard. On her journey, she sang radiant poems of saints and heroes, weaving tales of people, miracles, turmoil, and suffering.",
-      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/6/68/Ciaccona_Card.png/revision/latest?cb=20250403171349",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/6/68/Ciaccona_Card.png/revision/latest?cb=20250418030104",
       "version": "2.3"
     },
     {
@@ -52,7 +40,7 @@
       "birthday": "Unknown",
       "quote": "The wind carries my blade, and my blade carries justice.",
       "description": "A member of the Midnight Rangers, Jiyan is a skilled warrior who uses the power of wind to enhance his combat abilities.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/3/3f/Jiyan.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0d/Jiyan_Card.png/revision/latest?cb=20250418030105",
       "version": "1.0"
     },
     {
@@ -64,7 +52,7 @@
       "birthday": "Unknown",
       "quote": "The Black Shores will always be my home, no matter where I go.",
       "description": "A member of the Black Shores, Aalto is a skilled marksman who uses dual pistols infused with the power of wind.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/a/a1/Aalto.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/6/65/Aalto_Card.jpg/revision/latest?cb=20250418030106",
       "version": "1.0"
     },
     {
@@ -76,7 +64,7 @@
       "birthday": "Unknown",
       "quote": "My fists are guided by the wind, and my heart by honor.",
       "description": "A practitioner of Fengyiquan, Jianxin uses martial arts enhanced by the power of wind.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/2/2f/Jianxin.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/8/8a/Jianxin_Card.jpg/revision/latest?cb=20250418030107",
       "version": "1.0"
     },
     {
@@ -88,7 +76,7 @@
       "birthday": "Unknown",
       "quote": "The wind whispers secrets to those who listen carefully.",
       "description": "A mysterious figure who harnesses the power of wind for both combat and healing.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/5/5c/Yangyang.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a7/Yangyang_Card.png/revision/latest?cb=20250418030108",
       "version": "1.2"
     },
     {
@@ -100,7 +88,7 @@
       "birthday": "Unknown",
       "quote": "Lightning strikes where I command, and my blade follows.",
       "description": "A member of the Ghost Hounds from Huanglong, Calcharo wields a massive broadblade charged with electric energy.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/c/c3/Calcharo.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e5/Calcharo_Card.png/revision/latest?cb=20250418030109",
       "version": "1.0"
     },
     {
@@ -112,7 +100,7 @@
       "birthday": "Unknown",
       "quote": "Logistics and lightning - both require precision and speed.",
       "description": "A member of Lollo Logistics from Yuezhou, Lumi combines her business acumen with her electro powers.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/d/d8/Lumi.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/ee/Lumi_Card.jpg/revision/latest?cb=20250418030110",
       "version": "1.4"
     },
     {
@@ -124,7 +112,7 @@
       "birthday": "Unknown",
       "quote": "The flames of justice burn eternal in my blade.",
       "description": "A representative of City Hall in Jinzhou, Changli uses her fusion powers to protect the citizens.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/7/7d/Changli.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e9/Changli_Card.png/revision/latest?cb=20250418030111",
       "version": "1.1"
     },
     {
@@ -136,7 +124,7 @@
       "birthday": "Unknown",
       "quote": "Every performance deserves an encore, especially the final one.",
       "description": "A member of the Black Shores, Encore uses her rectifier to channel fusion energy in devastating attacks.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/e/e1/Encore.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/6/6c/Encore_Card.png/revision/latest?cb=20250418030112",
       "version": "1.0"
     },
     {
@@ -148,7 +136,7 @@
       "birthday": "Unknown",
       "quote": "The Public Security Bureau ensures that justice burns bright.",
       "description": "A member of the Public Security Bureau in Huanglong, Chixia uses dual pistols infused with fusion energy.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/c/c9/Chixia.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/d/da/Chixia_Card.png/revision/latest?cb=20250418030115",
       "version": "1.0"
     },
     {
@@ -160,7 +148,7 @@
       "birthday": "Unknown",
       "quote": "Fire cleanses all impurities, including doubt.",
       "description": "A mysterious gunslinger who uses fusion-infused bullets to eliminate threats.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/f/f2/Mortefi.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c8/Mortefi.jpg/revision/latest?cb=20250418030115",
       "version": "1.3"
     },
     {
@@ -172,7 +160,7 @@
       "birthday": "Unknown",
       "quote": "The Troupe of Fools brings both entertainment and destruction.",
       "description": "A member of the Troupe of Fools from Rinascita, Brant combines showmanship with deadly fusion attacks.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/b/b5/Brant.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/2/2d/Brant_Card.png/revision/latest?cb=20250418030116",
       "version": "2.1"
     },
     {
@@ -184,7 +172,7 @@
       "birthday": "Unknown",
       "quote": "Knowledge is like ice - beautiful, clear, and potentially dangerous.",
       "description": "A scholar from Huaxu Academy in Jinzhou, Baizhi uses her rectifier to channel glacio energy for both offense and defense.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/b/b2/Baizhi.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/ed/Baizhi_Card.png/revision/latest?cb=20250418030117",
       "version": "1.0"
     },
     {
@@ -196,7 +184,7 @@
       "birthday": "Unknown",
       "quote": "The Liondance Troupe's performances are as beautiful as freshly fallen snow.",
       "description": "A performer from the Liondance Troupe, Lingyang uses ice-infused martial arts in both performances and combat.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/l/l9/Lingyang.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/9/98/Lingyang_Card.png/revision/latest?cb=20250418030118",
       "version": "1.0"
     },
     {
@@ -208,7 +196,7 @@
       "birthday": "Unknown",
       "quote": "The Montelli Family's influence is as vast as a glacier.",
       "description": "A member of the Montelli Family from Rinascita, Carlotta uses dual pistols that fire ice-infused bullets.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/c/c7/Carlotta.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/8/8a/Carlotta_Card.png/revision/latest?cb=20250418030119",
       "version": "2.0"
     },
     {
@@ -220,7 +208,7 @@
       "birthday": "Unknown",
       "quote": "Chaos is simply order waiting to be deciphered.",
       "description": "A member of the Black Shores, Camellya wields a sword infused with havoc energy that can tear through reality.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/c/c5/Camellya.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/8/8f/Camellya_Card.png/revision/latest?cb=20250418030119",
       "version": "1.4"
     },
     {
@@ -232,7 +220,7 @@
       "birthday": "Unknown",
       "quote": "The Midnight Rangers walk the line between order and chaos.",
       "description": "A member of the Midnight Rangers, Danjin uses havoc energy to enhance his swordsmanship.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/d/d3/Danjin.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3e/Danjin_Card.png/revision/latest?cb=20250418030121",
       "version": "1.0"
     },
     {
@@ -244,7 +232,141 @@
       "birthday": "Unknown",
       "quote": "Light reveals truth, but sometimes truth is better left hidden.",
       "description": "A representative of City Hall in Jinzhou, Jinhsi uses spectro energy to both illuminate and blind.",
-      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/j/j1/Jinhsi.png",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a9/Jinhsi_Card.png/revision/latest?cb=20250418030121",
+      "version": "1.1"
+    },
+    {
+      "name": "Sanhua",
+      "attribute": "Glacio",
+      "weapon": "Sword",
+      "rarity": 4,
+      "class": "Mutant",
+      "birthday": "January 20",
+      "quote": "Please don't stay too far away from me. I am confident to not let you get harmed in the slightest.",
+      "description": "A loyal and reliable guard for Jinhsi, Sanhua is composed and reserved. She perceives a world distinctly different from that in the eyes of others, and her body temperature is below normal.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5d/Sanhua_Card.png/revision/latest?cb=20250418030122",
+      "version": "1.0"
+    },
+    {
+      "name": "Shorekeeper",
+      "attribute": "Spectro",
+      "weapon": "Rectifier",
+      "rarity": 5,
+      "class": "Unknown",
+      "birthday": "February 27",
+      "quote": "\"The Shorekeeper\"... This name suits me well enough. It aligns with my purpose and drive: they only exist because of you",
+      "description": "A mysterious figure from the Black Shores who wields a powerful rectifier infused with spectro energy.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/8/85/Shorekeeper_Card.png/revision/latest?cb=20250418030123",
+      "version": "2.0"
+    },
+    {
+      "name": "Rover",
+      "attribute": "Multi-Element",
+      "weapon": "Sword",
+      "rarity": 5,
+      "class": "Arbiter",
+      "birthday": "Unknown",
+      "quote": "Is this the beginning of a new journey? Brimming with novel sounds, and untold stories...",
+      "description": "Awakened with an unknown past, Rover is an Arbiter who embarks on a journey to uncover the truth to regain their lost memories. As a unique Resonator, Rover can harness multiple elemental powers.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/7/70/Rover_1.png/revision/latest?cb=20250418030104",
+      "version": "1.0",
+      "variants": [
+        {
+          "name": "Rover-Aero",
+          "attribute": "Aero",
+          "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c5/Rover-Aero_Card.png/revision/latest?cb=20250418071902",
+          "description": "One of the Arbiters from the Black Shores, Rover-Aero wields a sword infused with the power of wind."
+        },
+        {
+          "name": "Rover-Spectro",
+          "attribute": "Spectro",
+          "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d2/Rover-Spectro_Card.png/revision/latest?cb=20250418071903",
+          "description": "One of the Arbiters from the Black Shores, Rover-Spectro uses spectro energy to enhance their swordsmanship."
+        }
+      ]
+    },
+    {
+      "name": "Phoebe",
+      "attribute": "Spectro",
+      "weapon": "Rectifier",
+      "rarity": 5,
+      "class": "Unknown",
+      "birthday": "Unknown",
+      "quote": "The Order of the Deep holds many secrets, as do I.",
+      "description": "A mysterious member of the Order of the Deep from Rinascita, Phoebe uses her rectifier to channel spectro energy.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a4/Phoebe_Card.png/revision/latest?cb=20250418071900",
+      "version": "2.1"
+    },
+    {
+      "name": "Roccia",
+      "attribute": "Havoc",
+      "weapon": "Gauntlets",
+      "rarity": 5,
+      "class": "Natural",
+      "birthday": "Unknown",
+      "quote": "The Troupe of Fools brings entertainment through chaos.",
+      "description": "A powerful member of the Troupe of Fools from Rinascita, Roccia uses havoc-infused gauntlets in combat.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b1/Roccia_Card.png/revision/latest?cb=20250418071901",
+      "version": "2.0"
+    },
+    {
+      "name": "Taoqi",
+      "attribute": "Havoc",
+      "weapon": "Broadblade",
+      "rarity": 5,
+      "class": "Natural",
+      "birthday": "Unknown",
+      "quote": "Development requires both creation and destruction.",
+      "description": "A member of the Ministry of Development in Jinzhou, Taoqi wields a massive broadblade infused with havoc energy.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/7/7d/Taoqi_Card.png/revision/latest?cb=20250418071904",
+      "version": "1.0"
+    },
+    {
+      "name": "Verina",
+      "attribute": "Spectro",
+      "weapon": "Rectifier",
+      "rarity": 5,
+      "class": "Congenital",
+      "birthday": "Unknown",
+      "quote": "The Pioneer Association lights the way for all.",
+      "description": "A member of the Pioneer Association in Jinzhou, Verina uses her rectifier to channel spectro energy for both exploration and combat.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e8/Verina_Card.png/revision/latest?cb=20250418071905",
+      "version": "1.0"
+    },
+    {
+      "name": "Xiangli Yao",
+      "attribute": "Electro",
+      "weapon": "Gauntlets",
+      "rarity": 5,
+      "class": "Mutant",
+      "birthday": "Unknown",
+      "quote": "Knowledge and power go hand in hand.",
+      "description": "A scholar from Huaxu Academy in Jinzhou, Xiangli Yao uses electro-infused gauntlets in combat.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f2/Xiangli_Yao_Card.png/revision/latest?cb=20250418071906",
+      "version": "1.2"
+    },
+    {
+      "name": "Yinlin",
+      "attribute": "Electro",
+      "weapon": "Rectifier",
+      "rarity": 4,
+      "class": "Congenital",
+      "birthday": "Unknown",
+      "quote": "The Public Security Bureau ensures order through power.",
+      "description": "A member of the Public Security Bureau in Jinzhou, Yinlin uses her rectifier to channel electro energy.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1c/Yinlin_Card.png/revision/latest?cb=20250418071907",
+      "version": "1.0"
+    },
+    {
+      "name": "Youhu",
+      "attribute": "Glacio",
+      "weapon": "Gauntlets",
+      "rarity": 4,
+      "class": "Mutant",
+      "birthday": "Unknown",
+      "quote": "The cold never bothered me anyway.",
+      "description": "A resident of Chongzi in Huanglong, Youhu uses ice-infused gauntlets in combat.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b9/Youhu_Card.png/revision/latest?cb=20250418071908",
       "version": "1.1"
     }
   ]
