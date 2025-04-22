@@ -1,0 +1,58 @@
+{
+  "attributes": [
+    {
+      "name": "Aero",
+      "description": "The attribute of wind and air, representing freedom and mobility.",
+      "color": "#4DFFB8",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/c/c5/Aero_Icon.png",
+      "strengths": ["Fusion"],
+      "weaknesses": ["Electro"],
+      "resonators": ["Ciaccona", "Jiyan", "Yangyang", "Aalto", "Jianxin", "Rover-Aero"]
+    },
+    {
+      "name": "Electro",
+      "description": "The attribute of lightning and electricity, representing power and speed.",
+      "color": "#A64DFF",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/e/e7/Electro_Icon.png",
+      "strengths": ["Aero"],
+      "weaknesses": ["Glacio"],
+      "resonators": ["Calcharo", "Lumi", "Yinlin", "Verina", "Yuanwu", "Rover-Electro"]
+    },
+    {
+      "name": "Fusion",
+      "description": "The attribute of fire and heat, representing passion and destruction.",
+      "color": "#FF4D4D",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/f/f1/Fusion_Icon.png",
+      "strengths": ["Glacio"],
+      "weaknesses": ["Aero"],
+      "resonators": ["Changli", "Encore", "Chixia", "Mortefi", "Brant", "Rover-Fusion"]
+    },
+    {
+      "name": "Glacio",
+      "description": "The attribute of ice and cold, representing preservation and resilience.",
+      "color": "#4DC3FF",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/9/9c/Glacio_Icon.png",
+      "strengths": ["Electro"],
+      "weaknesses": ["Fusion"],
+      "resonators": ["Baizhi", "Lingyang", "Carlotta", "Sanhua", "Taoqi", "Rover-Glacio"]
+    },
+    {
+      "name": "Havoc",
+      "description": "The attribute of chaos and disorder, representing unpredictability and transformation.",
+      "color": "#FF4DA6",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/d/d3/Havoc_Icon.png",
+      "strengths": ["Spectro"],
+      "weaknesses": ["Spectro"],
+      "resonators": ["Cantarella", "Camellya", "Danjin", "Yinzhou", "Rover-Havoc"]
+    },
+    {
+      "name": "Spectro",
+      "description": "The attribute of light and radiance, representing illumination and revelation.",
+      "color": "#FFDE4D",
+      "imageUrl": "https://static.wikia.nocookie.net/wuthering-waves/images/b/b5/Spectro_Icon.png",
+      "strengths": ["Havoc"],
+      "weaknesses": ["Havoc"],
+      "resonators": ["Jinhsi", "Shorekeeper", "Zani", "Huixin", "Rover-Spectro"]
+    }
+  ]
+}

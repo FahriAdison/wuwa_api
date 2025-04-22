@@ -1,0 +1,175 @@
+{
+  "echoes": [
+    {
+      "name": "Lorelei",
+      "type": "Echo",
+      "rarity": 5,
+      "description": "A mysterious echo that takes the form of a woman in a blue hood, said to guide lost souls through the darkness.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/cf/Lorelei_Icon.png/revision/latest?cb=20250418030134",
+      "stats": {
+        "hp": 1250,
+        "atk": 85,
+        "def": 75
+      },
+      "effects": {
+        "2piece": "Increases ATK by 18%",
+        "4piece": "After using a Forte Skill, increases CRIT Rate by 12% for 8s"
+      },
+      "version": "1.0"
+    },
+    {
+      "name": "Nightmare: Crownless",
+      "type": "Echo",
+      "rarity": 5,
+      "description": "An echo born from the nightmares of a fallen ruler, forever seeking its lost crown.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c3/Nightmare_Crownless_Echo.png/revision/latest?cb=20250418030135",
+      "stats": {
+        "hp": 1200,
+        "atk": 90,
+        "def": 70
+      },
+      "effects": {
+        "2piece": "Increases CRIT DMG by 20%",
+        "4piece": "After using a Basic Attack, increases ATK by 14% for 6s, stacks up to 3 times"
+      },
+      "version": "1.0",
+      "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d0/Nightmare_Crownless_Icon.png/revision/latest?cb=20250113145733"
+    },
+    {
+      "name": "Dreamless",
+      "type": "Echo",
+      "rarity": 5,
+      "description": "An echo that exists in a state between waking and sleeping, unable to dream or fully awaken.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/9/91/Dreamless_Icon.png/revision/latest?cb=20250418030136",
+      "stats": {
+        "hp": 1300,
+        "atk": 80,
+        "def": 80
+      },
+      "effects": {
+        "2piece": "Increases Energy Regen by 20%",
+        "4piece": "After using a Forte Skill, the next Basic Attack deals 40% additional DMG"
+      },
+      "version": "1.0"
+    },
+    {
+      "name": "Crownless",
+      "type": "Echo",
+      "rarity": 4,
+      "description": "A lesser version of the Nightmare: Crownless echo, still seeking its lost crown.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/7/70/Crownless_Icon.png/revision/latest?cb=20250418030137",
+      "stats": {
+        "hp": 1000,
+        "atk": 75,
+        "def": 65
+      },
+      "effects": {
+        "2piece": "Increases CRIT DMG by 15%",
+        "4piece": "After using a Basic Attack, increases ATK by 10% for 6s, stacks up to 2 times"
+      },
+      "version": "1.0"
+    },
+    {
+      "name": "Phantom: Capitaneus",
+      "type": "Echo",
+      "rarity": 5,
+      "description": "An echo of an ancient captain who still sails the seas between worlds, searching for a port that no longer exists.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e8/Phantom_Capitaneus_Echo.png/revision/latest?cb=20250418030138",
+      "stats": {
+        "hp": 1280,
+        "atk": 88,
+        "def": 72
+      },
+      "effects": {
+        "2piece": "Increases Havoc DMG by 15%",
+        "4piece": "When HP is above 80%, increases CRIT Rate by 15%"
+      },
+      "version": "2.2"
+    },
+    {
+      "name": "Nightmare: Lampylumen Myriad",
+      "type": "Echo",
+      "rarity": 5,
+      "description": "An echo formed from countless tiny lights, resembling a swarm of luminescent creatures that dance in perfect harmony.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f2/Nightmare_Lampylumen_Myriad_Echo.png/revision/latest?cb=20250418030139",
+      "stats": {
+        "hp": 1220,
+        "atk": 92,
+        "def": 68
+      },
+      "effects": {
+        "2piece": "Increases Electro DMG by 15%",
+        "4piece": "After using a Forte Skill, the next Basic Attack has a 70% chance to deal 60% additional Electro DMG"
+      },
+      "version": "2.2"
+    },
+    {
+      "name": "Phantom: Luminous",
+      "type": "Echo",
+      "rarity": 5,
+      "description": "An echo that shines with an inner light, illuminating the darkness around it.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a1/Phantom_Luminous_Echo.png/revision/latest?cb=20250418071910",
+      "stats": {
+        "hp": 1260,
+        "atk": 86,
+        "def": 74
+      },
+      "effects": {
+        "2piece": "Increases Spectro DMG by 15%",
+        "4piece": "After using a Forte Skill, increases Energy Regen by 25% for 8s"
+      },
+      "version": "1.2"
+    },
+    {
+      "name": "Nightmare: Frost Monarch",
+      "type": "Echo",
+      "rarity": 5,
+      "description": "An echo born from the frozen dreams of a winter king, eternally seeking warmth.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c7/Nightmare_Frost_Monarch_Echo.png/revision/latest?cb=20250418071911",
+      "stats": {
+        "hp": 1240,
+        "atk": 88,
+        "def": 72
+      },
+      "effects": {
+        "2piece": "Increases Glacio DMG by 15%",
+        "4piece": "When HP is above 70%, increases CRIT DMG by 25%"
+      },
+      "version": "1.3"
+    },
+    {
+      "name": "Windchaser",
+      "type": "Echo",
+      "rarity": 4,
+      "description": "An echo that follows the wind, always moving and never staying in one place for long.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5e/Windchaser_Echo.png/revision/latest?cb=20250418071912",
+      "stats": {
+        "hp": 980,
+        "atk": 72,
+        "def": 68
+      },
+      "effects": {
+        "2piece": "Increases Aero DMG by 12%",
+        "4piece": "Increases Movement SPD by 10%"
+      },
+      "version": "1.0"
+    },
+    {
+      "name": "Thunderstrike",
+      "type": "Echo",
+      "rarity": 4,
+      "description": "An echo that crackles with electric energy, ready to strike at any moment.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/8/8d/Thunderstrike_Echo.png/revision/latest?cb=20250418071913",
+      "stats": {
+        "hp": 950,
+        "atk": 78,
+        "def": 62
+      },
+      "effects": {
+        "2piece": "Increases Electro DMG by 12%",
+        "4piece": "After using a Basic Attack, has a 30% chance to deal 25% additional Electro DMG"
+      },
+      "version": "1.0"
+    }
+  ]
+}

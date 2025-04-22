@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wuthering Waves API - Widgets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/widgets.css">
+</head>
+<body>
+    <!-- Time and Date Widget -->
+    <div class="time-date-widget">
+        <div class="time-widget" id="current-time">00:00:00 WIB</div>
+        <div class="date-widget" id="current-date">Loading date...</div>
+    </div>
+
+    <!-- Visitor Counter Widget -->
+    <div class="visitor-counter-widget">
+        <div class="visitor-count" id="visitor-count">0</div>
+        <div class="visitor-label">Visitors</div>
+    </div>
+
+    <!-- Hamburger Menu Widget -->
+    <div class="hamburger-menu" id="hamburger-menu">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+    </div>
+
+    <!-- API Features Sidebar -->
+    <div class="api-sidebar" id="api-sidebar">
+        <div class="api-sidebar-header">
+            <h3>API Features</h3>
+            <p>Explore the available endpoints and features</p>
+        </div>
+        <ul class="api-list">
+            <li class="api-item">
+                <div class="api-item-header">Characters</div>
+                <div class="api-item-content">
+                    <div class="api-endpoint">/characters</div>
+                    <div class="api-description">Get a list of all characters in Wuthering Waves.</div>
+                    <div class="api-endpoint">/characters/:id</div>
+                    <div class="api-description">Get detailed information about a specific character.</div>
+                    <div class="api-example">
+                        <div class="api-example-title">Example Response</div>
+                        <pre class="api-example-code">{
+  "id": "cantarella",
+  "name": "Cantarella",
+  "element": "Electro",
+  "weapon": "Pistol",
+  "rarity": 5,
+  "stats": {
+    "attack": 845,
+    "defense": 520,
+    "hp": 12450
+  }
+}</pre>
+                    </div>
+                </div>
+            </li>
+            <li class="api-item">
+                <div class="api-item-header">Weapons</div>
+                <div class="api-item-content">
+                    <div class="api-endpoint">/weapons</div>
+                    <div class="api-description">Get a list of all weapons in Wuthering Waves.</div>
+                    <div class="api-endpoint">/weapons/:id</div>
+                    <div class="api-description">Get detailed information about a specific weapon.</div>
+                    <div class="api-example">
+                        <div class="api-example-title">Example Response</div>
+                        <pre class="api-example-code">{
+  "id": "the_last_dance",
+  "name": "The Last Dance",
+  "type": "Pistol",
+  "rarity": 5,
+  "stats": {
+    "attack": 500,
+    "secondary_stat": "CRIT Rate",
+    "secondary_value": 22.1
+  }
+}</pre>
+                    </div>
+                </div>
+            </li>
+            <li class="api-item">
+                <div class="api-item-header">Echoes</div>
+                <div class="api-item-content">
+                    <div class="api-endpoint">/echoes</div>
+                    <div class="api-description">Get a list of all echoes in Wuthering Waves.</div>
+                    <div class="api-endpoint">/echoes/:id</div>
+                    <div class="api-description">Get detailed information about a specific echo.</div>
+                    <div class="api-example">
+                        <div class="api-example-title">Example Response</div>
+                        <pre class="api-example-code">{
+  "id": "virtuoso_sonata",
+  "name": "Virtuoso Sonata",
+  "rarity": 5,
+  "effect": "Increases ATK by 30% and CRIT DMG by 15%"
+}</pre>
+                    </div>
+                </div>
+            </li>
+            <li class="api-item">
+                <div class="api-item-header">Attributes</div>
+                <div class="api-item-content">
+                    <div class="api-endpoint">/attributes</div>
+                    <div class="api-description">Get a list of all attributes in Wuthering Waves.</div>
+                    <div class="api-endpoint">/attributes/:id</div>
+                    <div class="api-description">Get detailed information about a specific attribute.</div>
+                </div>
+            </li>
+            <li class="api-item">
+                <div class="api-item-header">Sonatas</div>
+                <div class="api-item-content">
+                    <div class="api-endpoint">/sonatas</div>
+                    <div class="api-description">Get a list of all sonatas in Wuthering Waves.</div>
+                    <div class="api-endpoint">/sonatas/:id</div>
+                    <div class="api-description">Get detailed information about a specific sonata.</div>
+                </div>
+            </li>
+            <li class="api-item">
+                <div class="api-item-header">Stats</div>
+                <div class="api-item-content">
+                    <div class="api-endpoint">/stats</div>
+                    <div class="api-description">Get a list of all stats in Wuthering Waves.</div>
+                    <div class="api-endpoint">/stats/:id</div>
+                    <div class="api-description">Get detailed information about a specific stat.</div>
+                </div>
+            </li>
+            <li class="api-item">
+                <div class="api-item-header">Substats</div>
+                <div class="api-item-content">
+                    <div class="api-endpoint">/substats</div>
+                    <div class="api-description">Get a list of all substats in Wuthering Waves.</div>
+                    <div class="api-endpoint">/substats/:id</div>
+                    <div class="api-description">Get detailed information about a specific substat.</div>
+                </div>
+            </li>
+            <li class="api-item">
+                <div class="api-item-header">Codes</div>
+                <div class="api-item-content">
+                    <div class="api-endpoint">/codes</div>
+                    <div class="api-description">Get a list of all redemption codes in Wuthering Waves.</div>
+                    <div class="api-endpoint">/codes/:id</div>
+                    <div class="api-description">Get detailed information about a specific redemption code.</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- Changelog Section -->
+    <section class="changelog">
+        <div class="changelog-header">
+            <h2>Changelog</h2>
+            <p>Latest updates and improvements to the API</p>
+        </div>
+
+        <div class="changelog-widget">
+            <div class="changelog-item">
+                <div class="changelog-version">Version 2.2</div>
+                <div class="changelog-date">April 22, 2025</div>
+                <div class="changelog-details">
+                    <ul class="changelog-changes">
+                        <li class="changelog-change">Added new UI interface with anime theme</li>
+                        <li class="changelog-change">Improved showcase feature with interactive cards</li>
+                        <li class="changelog-change">Added visitor counter and WIB time/date display</li>
+                        <li class="changelog-change">Implemented hamburger menu with API features</li>
+                        <li class="changelog-change">Updated documentation and README</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="changelog-item">
+                <div class="changelog-version">Version 2.1</div>
+                <div class="changelog-date">March 15, 2025</div>
+                <div class="changelog-details">
+                    <ul class="changelog-changes">
+                        <li class="changelog-change">Added new characters from latest game update</li>
+                        <li class="changelog-change">Updated weapon stats and information</li>
+                        <li class="changelog-change">Fixed bugs in character endpoint</li>
+                        <li class="changelog-change">Improved API response time</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="changelog-item">
+                <div class="changelog-version">Version 2.0</div>
+                <div class="changelog-date">January 10, 2025</div>
+                <div class="changelog-details">
+                    <ul class="changelog-changes">
+                        <li class="changelog-change">Converted from Golang to JavaScript</li>
+                        <li class="changelog-change">Added new endpoints for sonatas and codes</li>
+                        <li class="changelog-change">Improved error handling and documentation</li>
+                        <li class="changelog-change">Optimized for Vercel deployment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/js/widgets.js"></script>
+    <script>
+        // Initialize sidebar functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburgerMenu = document.getElementById('hamburger-menu');
+            const apiSidebar = document.getElementById('api-sidebar');
+            const sidebarOverlay = document.getElementById('sidebar-overlay');
+            const apiItems = document.querySelectorAll('.api-item-header');
+            
+            // Toggle sidebar
+            hamburgerMenu.addEventListener('click', function() {
+                hamburgerMenu.classList.toggle('active');
+                apiSidebar.classList.toggle('active');
+                sidebarOverlay.classList.toggle('active');
+            });
+            
+            // Close sidebar when clicking overlay
+            sidebarOverlay.addEventListener('click', function() {
+                hamburgerMenu.classList.remove('active');
+                apiSidebar.classList.remove('active');
+                sidebarOverlay.classList.remove('active');
+            });
+            
+            // Toggle API item content
+            apiItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const parent = this.parentElement;
+                    parent.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

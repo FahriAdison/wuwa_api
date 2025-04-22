@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Documentation - Wuthering Waves API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/widgets.css">
+    <style>
+        /* Documentation specific styles */
+        .documentation-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .documentation-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .documentation-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: inline-block;
+        }
+        
+        .documentation-header p {
+            color: rgba(255, 255, 255, 0.7);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .endpoint-section {
+            margin-bottom: 3rem;
+            background-color: rgba(26, 26, 46, 0.5);
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border-left: 4px solid var(--secondary-color);
+        }
+        
+        .endpoint-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: white;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 0.5rem;
+        }
+        
+        .endpoint-item {
+            margin-bottom: 2rem;
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            padding: 1.5rem;
+            border-left: 3px solid var(--accent-color);
+        }
+        
+        .endpoint-url {
+            font-family: monospace;
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 0.8rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            color: var(--secondary-color);
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .http-method {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-right: 0.5rem;
+        }
+        
+        .endpoint-description {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 1rem;
+        }
+        
+        .parameters-title, .response-title {
+            font-size: 1.1rem;
+            color: white;
+            margin: 1.5rem 0 0.8rem;
+        }
+        
+        .parameter-table, .response-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+        
+        .parameter-table th, .response-table th {
+            text-align: left;
+            padding: 0.8rem;
+            background-color: rgba(0, 0, 0, 0.3);
+            color: white;
+            font-weight: 600;
+        }
+        
+        .parameter-table td, .response-table td {
+            padding: 0.8rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .parameter-name, .response-field {
+            font-family: monospace;
+            color: var(--secondary-color);
+        }
+        
+        .parameter-type, .response-type {
+            color: var(--accent-color);
+            font-family: monospace;
+            font-size: 0.9rem;
+        }
+        
+        .example-title {
+            font-size: 1.1rem;
+            color: white;
+            margin: 1.5rem 0 0.8rem;
+        }
+        
+        .example-code {
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 0.9rem;
+            color: #f0f0f0;
+            overflow-x: auto;
+            white-space: pre;
+            margin-bottom: 1.5rem;
+        }
+        
+        .try-it {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: var(--accent-color);
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+        
+        .try-it:hover {
+            background-color: #ff4a4d;
+            transform: translateY(-2px);
+        }
+        
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background-color: var(--primary-color);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: var(--transition);
+            opacity: 0;
+            visibility: hidden;
+        }
+        
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .back-to-top:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-3px);
+        }
+        
+        .toc {
+            background-color: rgba(26, 26, 46, 0.5);
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            position: sticky;
+            top: 2rem;
+        }
+        
+        .toc-title {
+            font-size: 1.3rem;
+            color: white;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 0.5rem;
+        }
+        
+        .toc-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .toc-item {
+            margin-bottom: 0.5rem;
+        }
+        
+        .toc-link {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: var(--transition);
+            display: block;
+            padding: 0.5rem;
+            border-radius: 4px;
+        }
+        
+        .toc-link:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: var(--secondary-color);
+        }
+        
+        .documentation-layout {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 2rem;
+        }
+        
+        @media (max-width: 992px) {
+            .documentation-layout {
+                grid-template-columns: 1fr;
+            }
+            
+            .toc {
+                position: static;
+                margin-bottom: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Time and Date Widget -->
+    <div class="time-date-widget">
+        <div class="time-widget" id="current-time">00:00:00 WIB</div>
+        <div class="date-widget" id="current-date">Loading date...</div>
+    </div>
+
+    <!-- Visitor Counter Widget -->
+    <div class="visitor-counter-widget">
+        <div class="visitor-count" id="visitor-count">0</div>
+        <div class="visitor-label">Visitors</div>
+    </div>
+
+    <!-- Hamburger Menu Widget -->
+    <div class="hamburger-menu" id="hamburger-menu">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+    </div>
+
+    <!-- API Features Sidebar -->
+    <div class="api-sidebar" id="api-sidebar">
+        <div class="api-sidebar-header">
+            <h3>API Features</h3>
+            <p>Explore the available endpoints and features</p>
+        </div>
+        <ul class="api-list">
+            <li class="api-item">
+                <div class="api-item-header">Characters</div>
+                <div class="api-item-content">
+                    <div class="api-endpoint">/api/characters</div>
+                    <div class="api-description">Get a list of all characters in Wuthering Waves.</div>
+                    <div class="api-endpoint">/api/characters/:id</div>
+                    <div class="api-description">Get detailed information about a specific character.</div>
+                </div>
+            </li>
+            <li class="api-item">
+                <div class="api-item-header">Weapons</div>
+                <div class="api-item-content">
+                    <div class="api-endpoint">/api/weapons</div>
+                    <div class="api-description">Get a list of all weapons in Wuthering Waves.</div>
+                    <div class="api-endpoint">/api/weapons/:id</div>
+                    <div class="api-description">Get detailed information about a specific weapon.</div>
+                </div>
+            </li>
+            <li class="api-item">
+                <div class="api-item-header">Echoes</div>
+                <div class="api-item-content">
+                    <div class="api-endpoint">/api/echoes</div>
+                    <div class="api-description">Get a list of all echoes in Wuthering Waves.</div>
+                    <div class="api-endpoint">/api/echoes/:id</div>
+                    <div class="api-description">Get detailed information about a specific echo.</div>
+                </div>
+            </li>
+            <li class="api-item">
+                <div class="api-item-header">Other Endpoints</div>
+                <div class="api-item-content">
+                    <div class="api-endpoint">/api/attributes</div>
+                    <div class="api-endpoint">/api/sonatas</div>
+                    <div class="api-endpoint">/api/stats</div>
+                    <div class="api-endpoint">/api/substats</div>
+                    <div class="api-endpoint">/api/codes</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- Back to Top Button -->
+    <a href="#top" class="back-to-top" id="back-to-top">↑</a>
+
+    <!-- Documentation Content -->
+    <div class="documentation-container" id="top">
+        <div class="documentation-header">
+            <h1>Wuthering Waves API Documentation</h1>
+            <p>Comprehensive documentation for the Wuthering Waves API, providing access to game data including characters, weapons, echoes, and more.</p>
+        </div>
+
+        <div class="documentation-layout">
+            <!-- Table of Contents -->
+            <div class="toc">
+                <h2 class="toc-title">Contents</h2>
+                <ul class="toc-list">
+                    <li class="toc-item"><a href="#introduction" class="toc-link">Introduction</a></li>
+                    <li class="toc-item"><a href="#authentication" class="toc-link">Authentication</a></li>
+                    <li class="toc-item"><a href="#rate-limiting" class="toc-link">Rate Limiting</a></li>
+                    <li class="toc-item"><a href="#characters" class="toc-link">Characters</a></li>
+                    <li class="toc-item"><a href="#weapons" class="toc-link">Weapons</a></li>
+                    <li class="toc-item"><a href="#echoes" class="toc-link">Echoes</a></li>
+                    <li class="toc-item"><a href="#attributes" class="toc-link">Attributes</a></li>
+                    <li class="toc-item"><a href="#sonatas" class="toc-link">Sonatas</a></li>
+                    <li class="toc-item"><a href="#stats" class="toc-link">Stats</a></li>
+                    <li class="toc-item"><a href="#substats" class="toc-link">Substats</a></li>
+                    <li class="toc-item"><a href="#codes" class="toc-link">Redemption Codes</a></li>
+                </ul>
+            </div>
+
+            <!-- Documentation Content -->
+            <div class="documentation-content">
+                <!-- Introduction Section -->
+                <section class="endpoint-section" id="introduction">
+                    <h2>Introduction</h2>
+                    <p class="endpoint-description">
+                        Welcome to the Wuthering Waves API documentation. This API provides access to comprehensive data about the Wuthering Waves game, including characters, weapons, echoes, and more. The API is RESTful and returns data in JSON format.
+                    </p>
+                    <div class="endpoint-item">
+                        <div class="endpoint-url">
+                            <span><span class="http-method">GET</span> /api</span>
+                        </div>
+                        <p class="endpoint-description">
+                            Returns basic information about the API, including version and available endpoints.
+                        </p>
+                        <h4 class="example-title">Example Response</h4>
+                        <pre class="example-code">{
+  "status": 200,
+  "message": "Success",
+  "data": {
+    "message": "Welcome to Wuthering Waves API (JavaScript Version)",
+    "version": "2.2",
+    "documentation": "https://github.com/FahriAdison/wuwa_api",
+    "endpoints": [
+      "/api/characters",
+      "/api/weapons",
+      "/api/echoes",
+      "/api/attributes",
+      "/api/sonatas",
+      "/api/stats",
+      "/api/substats",
+      "/api/codes"
+    ]
+  },
+  "timestamp": "2025-04-22T11:20:00.000Z"
+}</pre>
+                        <a href="/api" class="try-it" target="_blank">Try it</a>
+                    </div>
+                </section>
+
+                <!-- Authentication Section -->
+                <section class="endpoint-section" id="authentication">
+                    <h2>Authentication</h2>
+                    <p class="endpoint-description">
+                        The Wuthering Waves API is currently open and does not require authentication. However, please respect the rate limits to ensure fair usage for all users.
+                    </p>
+                </section>
+
+                <!-- Rate Limiting Section -->
+                <section class="endpoint-section" id="rate-limiting">
+                    <h2>Rate Limiting</h2>
+                    <p class="endpoint-description">
+                        To ensure fair usage, the API implements rate limiting. Each IP address is limited to 100 requests per 15-minute window. If you exceed this limit, you will receive a 429 Too Many Requests response.
+                    </p>
+                    <div class="endpoint-item">
+                        <h4 class="example-title">Rate Limit Exceeded Response</h4>
+                        <pre class="example-code">{
+  "status": 429,
+  "error": true,
+  "message": "Too many requests from this IP, please try again after 15 minutes",
+  "timestamp": "2025-04-22T11:20:00.000Z"
+}</pre>
+                    </div>
+                </section>
+
+                <!-- Characters Section -->
+                <section class="endpoint-section" id="characters">
+                    <h2>Characters</h2>
+                    <p class="endpoint-description">
+                        Access information about characters in Wuthering Waves, including their stats, abilities, and more.
+                    </p>
+                    
+                    <div class="endpoint-item">
+                        <div class="endpoint-url">
+                            <span><span class="http-method">GET</span> /api/characters</span>
+                        </div>
+                        <p class="endpoint-description">
+                            Returns a list of all characters in Wuthering Waves.
+                        </p>
+                        <h4 class="parameters-title">Query Parameters</h4>
+                        <table class="parameter-table">
+                            <thead>
+                                <tr>
+                                    <th>Parameter</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="parameter-name">page</td>
+                                    <td class="parameter-type">integer</td>
+                                    <td>Page number for pagination (default: 1)</td>
+                                </tr>
+                                <tr>
+                                    <td class="parameter-name">limit</td>
+                                    <td class="parameter-type">integer</td>
+                                    <td>Number of items per page (default: 20, max: 100)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h4 class="example-title">Example Response</h4>
+                        <pre class="example-code">{
+  "status": 200,
+  "message": "Success",
+  "data": {
+    "characters": [
+      {
+        "id": "cantarella",
+        "name": "Cantarella",
+        "element": "Electro",
+        "weapon": "Pistol",
+        "rarity": 5,
+        "stats": {
+          "attack": 845,
+          "defense": 520,
+          "hp": 12450
+        }
+      },
+      {
+        "id": "camellya",
+        "name": "Camellya",
+        "element": "Cryo",
+        "weapon": "Blade",
+        "rarity": 5,
+        "stats": {
+          "attack": 792,
+          "defense": 580,
+          "hp": 13200
+        }
+      }
+      // More characters...
+    ],
+    "pagination": {
+      "total_items": 28,
+      "total_pages": 2,
+      "current_page": 1,
+      "items_per_page": 20,
+      "has_next_page": true,
+      "has_prev_page": false
+    }
+  },
+  "timestamp": "2025-04-22T11:20:00.000Z"
+}</pre>
+                        <a href="/api/characters" class="try-it" target="_blank">Try it</a>
+                    </div>
+                    
+                    <div class="endpoint-item">
+                        <div class="endpoint-url">
+                            <span><span class="http-method">GET</span> /api/characters/:name</span>
+                        </div>
+                        <p class="endpoint-description">
+                            Returns detailed information about a specific character by name.
+                        </p>
+                        <h4 class="parameters-title">Path Parameters</h4>
+                        <table class="parameter-table">
+                            <thead>
+                                <tr>
+                                    <th>Parameter</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="parameter-name">name</td>
+                                    <td class="parameter-type">string</td>
+                                    <td>Character name (case insensitive)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h4 class="example-title">Example Response</h4>
+                        <pre class="example-code">{
+  "status": 200,
+  "message": "Success",
+  "data": {
+    "id": "cantarella",
+    "name": "Cantarella",
+    "element": "Electro",
+    "weapon": "Pistol",
+    "rarity": 5,
+    "stats": {
+      "attack": 845,
+      "defense": 520,
+      "hp": 12450
+    },
+    "abilities": {
+      "normal_attack": "Fires electro bullets that deal Electro DMG",
+      "skill": "Unleashes a powerful electro attack",
+      "burst": "Summons an electro storm that deals massive AoE Electro DMG"
+    },
+    "ascension_materials": [
+      "Electro Crystal",
+      "Resonance Core",
+      "Electro Butterfly"
+    ]
+  },
+  "timestamp": "2025-04-22T11:20:00.000Z"
+}</pre>
+                        <a href="/api/characters/cantarella" class="try-it" target="_blank">Try it</a>
+                    </div>
+                    
+                    <div class="endpoint-item">
+                        <div class="endpoint-url">
+                            <span><span class="http-method">GET</span> /api/characters/attribute/:attribute</span>
+                        </div>
+                        <p class="endpoint-description">
+                            Returns a list of characters with the specified attribute (element).
+                        </p>
+                        <h4 class="parameters-title">Path Parameters</h4>
+                        <table class="parameter-table">
+                            <thead>
+                                <tr>
+                                    <th>Parameter</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="parameter-name">attribute</td>
+                                    <td class="parameter-type">string</td>
+                                    <td>Element type (e.g., Electro, Cryo, Pyro)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href="/api/characters/attribute/electro" class="try-it" target="_blank">Try it</a>
+                    </div>
+                </section>
+
+                <!-- Weapons Section -->
+                <section class="endpoint-section" id="weapons">
+                    <h2>Weapons</h2>
+                    <p class="endpoint-description">
+                        Access information about weapons in Wuthering Waves, including their stats, abilities, and more.
+                    </p>
+                    
+                    <div class="endpoint-item">
+                        <div class="endpoint-url">
+                            <span><span class="http-method">GET</span> /api/weapons</span>
+                        </div>
+                        <p class="endpoint-description">
+                            Returns a list of all weapons in Wuthering Waves.
+                        </p>
+                        <h4 class="parameters-title">Query Parameters</h4>
+                        <table class="parameter-table">
+                            <thead>
+                                <tr>
+                                    <th>Parameter</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="parameter-name">page</td>
+                                    <td class="parameter-type">integer</td>
+                                    <td>Page number for pagination (default: 1)</td>
+                                </tr>
+                                <tr>
+                                    <td class="parameter-name">limit</td>
+                                    <td class="parameter-type">integer</td>
+                                    <td>Number of items per page (default: 20, max: 100)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h4 class="example-title">Example Response</h4>
+                        <pre class="example-code">{
+  "status": 200,
+  "message": "Success",
+  "data": {
+    "weapons": [
+      {
+        "id": "the_last_dance",
+        "name": "The Last Dance",
+        "type": "Pistol",
+        "rarity": 5,
+        "stats": {
+          "attack": 500,
+          "secondary_stat": "CRIT Rate",
+          "secondary_value": 22.1
+        }
+      },
+      // More weapons...
+    ],
+    "pagination": {
+      "total_items": 50,
+      "total_pages": 3,
+      "current_page": 1,
+      "items_per_page": 20,
+      "has_next_page": true,
+      "has_prev_page": false
+    }
+  },
+  "timestamp": "2025-04-22T11:20:00.000Z"
+}</pre>
+                        <a href="/api/weapons" class="try-it" target="_blank">Try it</a>
+                    </div>
+                    
+                    <div class="endpoint-item">
+                        <div class="endpoint-url">
+                            <span><span class="http-method">GET</span> /api/weapons/:id</span>
+                        </div>
+                        <p class="endpoint-description">
+                            Returns detailed information about a specific weapon by ID.
+                        </p>
+                        <h4 class="parameters-title">Path Parameters</h4>
+                        <table class="parameter-table">
+                            <thead>
+                                <tr>
+                                    <th>Parameter</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="parameter-name">id</td>
+                                    <td class="parameter-type">string</td>
+                                    <td>Weapon ID</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href="/api/weapons/the_last_dance" class="try-it" target="_blank">Try it</a>
+                    </div>
+                </section>
+
+                <!-- Echoes Section -->
+                <section class="endpoint-section" id="echoes">
+                    <h2>Echoes</h2>
+                    <p class="endpoint-description">
+                        Access information about echoes in Wuthering Waves, including their effects, stats, and more.
+                    </p>
+                    
+                    <div class="endpoint-item">
+                        <div class="endpoint-url">
+                            <span><span class="http-method">GET</span> /api/echoes</span>
+                        </div>
+                        <p class="endpoint-description">
+                            Returns a list of all echoes in Wuthering Waves.
+                        </p>
+                        <h4 class="example-title">Example Response</h4>
+                        <pre class="example-code">{
+  "status": 200,
+  "message": "Success",
+  "data": {
+    "echoes": [
+      {
+        "id": "virtuoso_sonata",
+        "name": "Virtuoso Sonata",
+        "rarity": 5,
+        "effect": "Increases ATK by 30% and CRIT DMG by 15%"
+      },
+      // More echoes...
+    ]
+  },
+  "timestamp": "2025-04-22T11:20:00.000Z"
+}</pre>
+                        <a href="/api/echoes" class="try-it" target="_blank">Try it</a>
+                    </div>
+                    
+                    <div class="endpoint-item">
+                        <div class="endpoint-url">
+                            <span><span class="http-method">GET</span> /api/echoes/:id</span>
+                        </div>
+                        <p class="endpoint-description">
+                            Returns detailed information about a specific echo by ID.
+                        </p>
+                        <a href="/api/echoes/virtuoso_sonata" class="try-it" target="_blank">Try it</a>
+                    </div>
+                </section>
+
+                <!-- Other Sections (abbreviated for brevity) -->
+                <section class="endpoint-section" id="attributes">
+                    <h2>Attributes</h2>
+                    <p class="endpoint-description">
+                        Access information about attributes in Wuthering Waves.
+                    </p>
+                    
+                    <div class="endpoint-item">
+                        <div class="endpoint-url">
+                            <span><span class="http-method">GET</span> /api/attributes</span>
+                        </div>
+                        <p class="endpoint-description">
+                            Returns a list of all attributes in Wuthering Waves.
+                        </p>
+                        <a href="/api/attributes" class="try-it" target="_blank">Try it</a>
+                    </div>
+                </section>
+
+                <section class="endpoint-section" id="sonatas">
+                    <h2>Sonatas</h2>
+                    <p class="endpoint-description">
+                        Access information about sonatas in Wuthering Waves.
+                    </p>
+                    
+                    <div class="endpoint-item">
+                        <div class="endpoint-url">
+                            <span><span class="http-method">GET</span> /api/sonatas</span>
+                        </div>
+                        <p class="endpoint-description">
+                            Returns a list of all sonatas in Wuthering Waves.
+                        </p>
+                        <a href="/api/sonatas" class="try-it" target="_blank">Try it</a>
+                    </div>
+                </section>
+
+                <section class="endpoint-section" id="stats">
+                    <h2>Stats</h2>
+                    <p class="endpoint-description">
+                        Access information about stats in Wuthering Waves.
+                    </p>
+                    
+                    <div class="endpoint-item">
+                        <div class="endpoint-url">
+                            <span><span class="http-method">GET</span> /api/stats</span>
+                        </div>
+                        <p class="endpoint-description">
+                            Returns a list of all stats in Wuthering Waves.
+                        </p>
+                        <a href="/api/stats" class="try-it" target="_blank">Try it</a>
+                    </div>
+                </section>
+
+                <section class="endpoint-section" id="substats">
+                    <h2>Substats</h2>
+                    <p class="endpoint-description">
+                        Access information about substats in Wuthering Waves.
+                    </p>
+                    
+                    <div class="endpoint-item">
+                        <div class="endpoint-url">
+                            <span><span class="http-method">GET</span> /api/substats</span>
+                        </div>
+                        <p class="endpoint-description">
+                            Returns a list of all substats in Wuthering Waves.
+                        </p>
+                        <a href="/api/substats" class="try-it" target="_blank">Try it</a>
+                    </div>
+                </section>
+
+                <section class="endpoint-section" id="codes">
+                    <h2>Redemption Codes</h2>
+                    <p class="endpoint-description">
+                        Access information about redemption codes in Wuthering Waves.
+                    </p>
+                    
+                    <div class="endpoint-item">
+                        <div class="endpoint-url">
+                            <span><span class="http-method">GET</span> /api/codes</span>
+                        </div>
+                        <p class="endpoint-description">
+                            Returns a list of all redemption codes in Wuthering Waves.
+                        </p>
+                        <a href="/api/codes" class="try-it" target="_blank">Try it</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Wuthering Waves API (JavaScript Version) - v2.2</p>
+        <p>Converted from <a href="https://github.com/resonance-rest/api" target="_blank">resonance-rest/api</a> (Golang)</p>
+        <p>&copy; 2025 - <a href="https://github.com/FahriAdison" target="_blank">FahriAdison</a></p>
+    </footer>
+
+    <script src="/js/widgets.js"></script>
+    <script>
+        // Initialize sidebar functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburgerMenu = document.getElementById('hamburger-menu');
+            const apiSidebar = document.getElementById('api-sidebar');
+            const sidebarOverlay = document.getElementById('sidebar-overlay');
+            const apiItems = document.querySelectorAll('.api-item-header');
+            const backToTop = document.getElementById('back-to-top');
+            
+            // Toggle sidebar
+            hamburgerMenu.addEventListener('click', function() {
+                hamburgerMenu.classList.toggle('active');
+                apiSidebar.classList.toggle('active');
+                sidebarOverlay.classList.toggle('active');
+            });
+            
+            // Close sidebar when clicking overlay
+            sidebarOverlay.addEventListener('click', function() {
+                hamburgerMenu.classList.remove('active');
+                apiSidebar.classList.remove('active');
+                sidebarOverlay.classList.remove('active');
+            });
+            
+            // Toggle API item content
+            apiItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const parent = this.parentElement;
+                    parent.classList.toggle('active');
+                });
+            });
+            
+            // Back to top button visibility
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTop.classList.add('visible');
+                } else {
+                    backToTop.classList.remove('visible');
+                }
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 20,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

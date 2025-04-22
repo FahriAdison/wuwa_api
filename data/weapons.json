@@ -1,0 +1,235 @@
+{
+  "weapons": [
+    {
+      "name": "Bloodpact's Pledge",
+      "type": "Sword",
+      "rarity": 5,
+      "description": "This weapon is a testament to the unbreakable blood pact: One shall never betray, never surrender, and fight until the last drop of blood is shed.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b5/Bloodpact's_Pledge.png/revision/latest?cb=20250418030125",
+      "stats": {
+        "baseAtk": 47,
+        "maxAtk": 587,
+        "subStat": "Energy Regen",
+        "subStatValue": 38.8
+      },
+      "availability": "Reward from The Maiden, The Defier, The Death Crier quest",
+      "version": "2.2",
+      "image": "https://static.wikia.nocookie.net/wutheringwaves/images/7/7a/Weapon_Bloodpact%27s_Pledge.png/revision/latest?cb=20250328175323"
+    },
+    {
+      "name": "Variation",
+      "type": "Pistols",
+      "rarity": 5,
+      "description": "A pair of pistols that can adapt to any situation, changing their form and function as needed.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0f/Weapon_Variation.png/revision/latest?cb=20250418030126",
+      "stats": {
+        "baseAtk": 45,
+        "maxAtk": 565,
+        "subStat": "CRIT Rate",
+        "subStatValue": 36.5
+      },
+      "availability": "Radiant Tide Convene",
+      "version": "1.0"
+    },
+    {
+      "name": "Emerald of Genesis",
+      "type": "Sword",
+      "rarity": 5,
+      "description": "A sword forged from a mysterious green crystal that resonates with the power of creation.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e0/Emerald_of_Genesis.png/revision/latest?cb=20250418030127",
+      "stats": {
+        "baseAtk": 46,
+        "maxAtk": 575,
+        "subStat": "ATK%",
+        "subStatValue": 45.6
+      },
+      "availability": "Radiant Tide Convene",
+      "version": "1.0",
+      "image": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d8/Weapon_Emerald_of_Genesis.png/revision/latest?cb=20240514220335"
+    },
+    {
+      "name": "Stellar Symphony",
+      "type": "Rectifier",
+      "rarity": 5,
+      "description": "A rectifier that channels the power of the stars, creating a symphony of cosmic energy.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/s/s7/Stellar_Symphony.png/revision/latest?cb=20250418030128",
+      "stats": {
+        "baseAtk": 48,
+        "maxAtk": 590,
+        "subStat": "CRIT DMG",
+        "subStatValue": 66.2
+      },
+      "availability": "Radiant Tide Convene",
+      "version": "1.1",
+      "image": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5e/Weapon_Stellar_Symphony.png/revision/latest?cb=20240929041851"
+    },
+    {
+      "name": "Call of the Abyss",
+      "type": "Broadblade",
+      "rarity": 5,
+      "description": "A massive blade that resonates with the depths of the abyss, calling forth dark energy.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c1/Call_of_the_Abyss.png/revision/latest?cb=20250418030129",
+      "stats": {
+        "baseAtk": 49,
+        "maxAtk": 600,
+        "subStat": "HP%",
+        "subStatValue": 50.4
+      },
+      "availability": "Radiant Tide Convene",
+      "version": "1.2",
+      "image": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f9/Weapon_Call_of_the_Abyss.png/revision/latest?cb=20250105161833"
+    },
+    {
+      "name": "Stringmaster",
+      "type": "Gauntlets",
+      "rarity": 5,
+      "description": "Gauntlets that allow the wielder to manipulate invisible strings, controlling the battlefield like a puppet master.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/1/16/Weapon_Stringmaster.png/revision/latest?cb=20250418030130",
+      "stats": {
+        "baseAtk": 46,
+        "maxAtk": 570,
+        "subStat": "DEF%",
+        "subStatValue": 58.3
+      },
+      "availability": "Radiant Tide Convene",
+      "version": "1.3"
+    },
+    {
+      "name": "Red Spring",
+      "type": "Pistols",
+      "rarity": 4,
+      "description": "Dual pistols that bloom with crimson energy, like flowers in spring.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9c/Weapon_Card_Red_Spring_1.png/revision/latest?cb=20250418030131",
+      "stats": {
+        "baseAtk": 42,
+        "maxAtk": 455,
+        "subStat": "ATK%",
+        "subStatValue": 36.8
+      },
+      "availability": "Lustrous Tide Convene",
+      "version": "1.0"
+    },
+    {
+      "name": "Jinzhou Keeper",
+      "type": "Sword",
+      "rarity": 4,
+      "description": "A traditional sword used by the guardians of Jinzhou, passed down through generations.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/j/j2/Jinzhou_Keeper.png/revision/latest?cb=20250418030132",
+      "stats": {
+        "baseAtk": 41,
+        "maxAtk": 450,
+        "subStat": "Energy Regen",
+        "subStatValue": 30.6
+      },
+      "availability": "Lustrous Tide Convene",
+      "version": "1.0",
+      "image": "https://static.wikia.nocookie.net/wutheringwaves/images/8/84/Weapon_Jinzhou_Keeper.png/revision/latest?cb=20240526011856"
+    },
+    {
+      "name": "Novaburst",
+      "type": "Rectifier",
+      "rarity": 4,
+      "description": "A rectifier that channels energy like a supernova, releasing bursts of power.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f4/Weapon_Novaburst.png/revision/latest?cb=20250418030132",
+      "stats": {
+        "baseAtk": 40,
+        "maxAtk": 445,
+        "subStat": "CRIT Rate",
+        "subStatValue": 24.2
+      },
+      "availability": "Lustrous Tide Convene",
+      "version": "1.0"
+    },
+    {
+      "name": "Whispers of Sirens",
+      "type": "Rectifier",
+      "rarity": 5,
+      "description": "A mysterious rectifier that resonates with the deep sea. Its wielder can hear the whispers of ancient sirens calling from the abyss.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a1/Whispers_of_Sirens.png/revision/latest?cb=20250418030133",
+      "stats": {
+        "baseAtk": 48,
+        "maxAtk": 580,
+        "subStat": "CRIT Rate",
+        "subStatValue": 14.4
+      },
+      "availability": "Neptune's Lullaby Convene",
+      "version": "2.2",
+      "image": "https://static.wikia.nocookie.net/wutheringwaves/images/2/25/Weapon_Whispers_of_Sirens.png/revision/latest?cb=20250328175144"
+    },
+    {
+      "name": "Stormcaller",
+      "type": "Sword",
+      "rarity": 5,
+      "description": "A sword that can summon and control the winds, creating devastating storms on the battlefield.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/2/29/Stormcaller.png/revision/latest?cb=20250418071914",
+      "stats": {
+        "baseAtk": 48,
+        "maxAtk": 585,
+        "subStat": "CRIT Rate",
+        "subStatValue": 15.2
+      },
+      "availability": "Radiant Tide Convene",
+      "version": "1.4"
+    },
+    {
+      "name": "Frostbite",
+      "type": "Gauntlets",
+      "rarity": 5,
+      "description": "Gauntlets infused with ice energy that can freeze enemies with a single touch.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/f/f1/Frostbite.png/revision/latest?cb=20250418071915",
+      "stats": {
+        "baseAtk": 47,
+        "maxAtk": 580,
+        "subStat": "ATK%",
+        "subStatValue": 42.8
+      },
+      "availability": "Radiant Tide Convene",
+      "version": "1.5"
+    },
+    {
+      "name": "Thunderclap",
+      "type": "Broadblade",
+      "rarity": 4,
+      "description": "A massive blade that generates thunder with each swing, striking fear into enemies.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3c/Thunderclap.png/revision/latest?cb=20250418071916",
+      "stats": {
+        "baseAtk": 43,
+        "maxAtk": 460,
+        "subStat": "Energy Regen",
+        "subStatValue": 32.4
+      },
+      "availability": "Lustrous Tide Convene",
+      "version": "1.0"
+    },
+    {
+      "name": "Lightbringer",
+      "type": "Rectifier",
+      "rarity": 4,
+      "description": "A rectifier that channels light energy, illuminating the darkness and revealing hidden truths.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/d/d5/Lightbringer.png/revision/latest?cb=20250418071917",
+      "stats": {
+        "baseAtk": 42,
+        "maxAtk": 455,
+        "subStat": "CRIT DMG",
+        "subStatValue": 48.6
+      },
+      "availability": "Lustrous Tide Convene",
+      "version": "1.1"
+    },
+    {
+      "name": "Chaos Bringer",
+      "type": "Pistols",
+      "rarity": 4,
+      "description": "Dual pistols that fire bullets of pure chaos energy, disrupting the natural order.",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e2/Chaos_Bringer.png/revision/latest?cb=20250418071918",
+      "stats": {
+        "baseAtk": 41,
+        "maxAtk": 450,
+        "subStat": "HP%",
+        "subStatValue": 38.2
+      },
+      "availability": "Lustrous Tide Convene",
+      "version": "1.2"
+    }
+  ]
+}

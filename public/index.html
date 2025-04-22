@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wuthering Waves API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Hamburger Menu Toggle -->
+    <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3>API Features</h3>
+        </div>
+        <ul class="api-list">
+            <li class="api-list-item">
+                <h4>Characters</h4>
+                <div class="api-details">
+                    <div class="endpoint">/characters</div>
+                    <div class="endpoint">/characters/:id</div>
+                    <p class="usage">Get information about Wuthering Waves characters, including stats, abilities, and more.</p>
+                </div>
+            </li>
+            <li class="api-list-item">
+                <h4>Weapons</h4>
+                <div class="api-details">
+                    <div class="endpoint">/weapons</div>
+                    <div class="endpoint">/weapons/:id</div>
+                    <p class="usage">Access data for all weapons in the game, including stats, abilities, and upgrade materials.</p>
+                </div>
+            </li>
+            <li class="api-list-item">
+                <h4>Echoes</h4>
+                <div class="api-details">
+                    <div class="endpoint">/echoes</div>
+                    <div class="endpoint">/echoes/:id</div>
+                    <p class="usage">Get information about Echoes, including effects, stats, and acquisition methods.</p>
+                </div>
+            </li>
+            <li class="api-list-item">
+                <h4>Attributes</h4>
+                <div class="api-details">
+                    <div class="endpoint">/attributes</div>
+                    <div class="endpoint">/attributes/:id</div>
+                    <p class="usage">Access data about character and weapon attributes in the game.</p>
+                </div>
+            </li>
+            <li class="api-list-item">
+                <h4>Sonatas</h4>
+                <div class="api-details">
+                    <div class="endpoint">/sonatas</div>
+                    <div class="endpoint">/sonatas/:id</div>
+                    <p class="usage">Get information about Sonatas, including effects and acquisition methods.</p>
+                </div>
+            </li>
+            <li class="api-list-item">
+                <h4>Stats</h4>
+                <div class="api-details">
+                    <div class="endpoint">/stats</div>
+                    <div class="endpoint">/stats/:id</div>
+                    <p class="usage">Access data about character and weapon stats in the game.</p>
+                </div>
+            </li>
+            <li class="api-list-item">
+                <h4>Substats</h4>
+                <div class="api-details">
+                    <div class="endpoint">/substats</div>
+                    <div class="endpoint">/substats/:id</div>
+                    <p class="usage">Get information about substats for equipment and characters.</p>
+                </div>
+            </li>
+            <li class="api-list-item">
+                <h4>Codes</h4>
+                <div class="api-details">
+                    <div class="endpoint">/codes</div>
+                    <div class="endpoint">/codes/:id</div>
+                    <p class="usage">Access redemption codes and rewards information.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Landing Page -->
+    <section class="landing-page">
+        <!-- Time and Date Display -->
+        <div class="time-date">
+            <div id="current-time">00:00:00 WIB</div>
+            <div id="current-date">Loading date...</div>
+        </div>
+
+        <div class="landing-content">
+            <div class="logo">
+                <h1>Wuthering Waves API</h1>
+                <p>Comprehensive REST API for Wuthering Waves game data</p>
+            </div>
+
+            <div class="description">
+                <p>Access detailed information about characters, weapons, echoes, and more from the Wuthering Waves universe. This API provides developers with easy access to game data for building tools, websites, and applications.</p>
+            </div>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-value" id="visitor-count">0</div>
+                    <div class="stat-label">Visitors</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">8</div>
+                    <div class="stat-label">Endpoints</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">v2.2</div>
+                    <div class="stat-label">Version</div>
+                </div>
+            </div>
+
+            <div class="cta-buttons">
+                <a href="/documentation" class="btn btn-primary">Documentation</a>
+                <a href="https://github.com/FahriAdison/wuwa_api" target="_blank" class="btn btn-secondary">Source Code</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section class="showcase">
+        <div class="showcase-header">
+            <h2>Featured Content</h2>
+            <p>Explore some of the data available through the Wuthering Waves API</p>
+        </div>
+
+        <div class="cards-container">
+            <!-- Character Card -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/300x200?text=Character" alt="Character">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Characters</h3>
+                    <p class="card-description">Access detailed information about all playable characters in Wuthering Waves.</p>
+                    <div class="card-stats">
+                        <div class="card-stat">
+                            <div class="card-stat-value">20+</div>
+                            <div class="card-stat-label">Characters</div>
+                        </div>
+                        <div class="card-stat">
+                            <div class="card-stat-value">100+</div>
+                            <div class="card-stat-label">Data Points</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weapon Card -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/300x200?text=Weapon" alt="Weapon">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Weapons</h3>
+                    <p class="card-description">Get information about all weapons, including stats, abilities, and upgrade materials.</p>
+                    <div class="card-stats">
+                        <div class="card-stat">
+                            <div class="card-stat-value">50+</div>
+                            <div class="card-stat-label">Weapons</div>
+                        </div>
+                        <div class="card-stat">
+                            <div class="card-stat-value">5</div>
+                            <div class="card-stat-label">Categories</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Echo Card -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/300x200?text=Echo" alt="Echo">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Echoes</h3>
+                    <p class="card-description">Access data about all echoes, including effects, stats, and acquisition methods.</p>
+                    <div class="card-stats">
+                        <div class="card-stat">
+                            <div class="card-stat-value">30+</div>
+                            <div class="card-stat-label">Echoes</div>
+                        </div>
+                        <div class="card-stat">
+                            <div class="card-stat-value">6</div>
+                            <div class="card-stat-label">Rarities</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Changelog Section -->
+    <section class="changelog">
+        <div class="changelog-header">
+            <h2>Changelog</h2>
+            <p>Latest updates and improvements to the API</p>
+        </div>
+
+        <div class="changelog-list">
+            <div class="changelog-item">
+                <div class="changelog-version">Version 2.2</div>
+                <div class="changelog-date">April 22, 2025</div>
+                <ul class="changelog-changes">
+                    <li class="changelog-change">Added new UI interface with anime theme</li>
+                    <li class="changelog-change">Improved showcase feature with interactive cards</li>
+                    <li class="changelog-change">Added visitor counter and WIB time/date display</li>
+                    <li class="changelog-change">Implemented hamburger menu with API features</li>
+                    <li class="changelog-change">Updated documentation and README</li>
+                </ul>
+            </div>
+            <div class="changelog-item">
+                <div class="changelog-version">Version 2.1</div>
+                <div class="changelog-date">March 15, 2025</div>
+                <ul class="changelog-changes">
+                    <li class="changelog-change">Added new characters from latest game update</li>
+                    <li class="changelog-change">Updated weapon stats and information</li>
+                    <li class="changelog-change">Fixed bugs in character endpoint</li>
+                    <li class="changelog-change">Improved API response time</li>
+                </ul>
+            </div>
+            <div class="changelog-item">
+                <div class="changelog-version">Version 2.0</div>
+                <div class="changelog-date">January 10, 2025</div>
+                <ul class="changelog-changes">
+                    <li class="changelog-change">Converted from Golang to JavaScript</li>
+                    <li class="changelog-change">Added new endpoints for sonatas and codes</li>
+                    <li class="changelog-change">Improved error handling and documentation</li>
+                    <li class="changelog-change">Optimized for Vercel deployment</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Wuthering Waves API (JavaScript Version) - v2.2</p>
+        <p>Converted from <a href="https://github.com/resonance-rest/api" target="_blank">resonance-rest/api</a> (Golang)</p>
+        <p>&copy; 2025 - <a href="https://github.com/FahriAdison" target="_blank">FahriAdison</a></p>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
