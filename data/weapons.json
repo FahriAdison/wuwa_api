@@ -230,6 +230,404 @@
       },
       "availability": "Lustrous Tide Convene",
       "version": "1.2"
+    },
+    {
+      "name": "Blazing Justice",
+      "type": "Gauntlets",
+      "rarity": 5,
+      "description": "It heralds justice, precise and inexorable as a clock's toll. All sins are cleansed in flame, dissipating like night beneath the dawn's gaze.",
+      "stats": {
+        "subStat": "Crit. DMG"
+      },
+      "availability": "Limited convene (version 2.3)",
+      "version": "2.3",
+      "signatureResonator": "Zani",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/cd/Weapon_Blazing_Justice.png/revision/latest?cb=20250503160236"
+    },
+    {
+      "name": "Woodland Aria",
+      "type": "Pistols",
+      "rarity": 5,
+      "description": "All things exist within the lines of poetry. Every sound has its meters and rhymes.The forest's melodies ascend in spirals toward the moon's silvered grace, harmonized by the nightingales' chorus. When the final note falls and vanishes into the silent earth, a flawless chord echoes endlessly in the depths of this boundless realm.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 2.3)",
+      "version": "2.3",
+      "signatureResonator": "Ciaccona",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/4/4b/Weapon_Woodland_Aria.png/revision/latest?cb=20250518060714"
+    },
+    {
+      "name": "Defier's Thorn",
+      "type": "Sword",
+      "rarity": 5,
+      "description": "The surging tides force the crown of thorns upon the knight, out of which the knight forges this sword.Unburdened by the crown, the knight waded through the roaring waves unwaveringly.",
+      "stats": {
+        "subStat": "HP"
+      },
+      "availability": "Limited convene (version 2.4)",
+      "version": "2.4",
+      "signatureResonator": "Cartethyia",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/5/50/Weapon_Defier%27s_Thorn.png/revision/latest?cb=20250613181905"
+    },
+    {
+      "name": "Wildfire Mark",
+      "type": "Broadblade",
+      "rarity": 5,
+      "description": "The young wolf races through the wilds, shedding every shadow that once held her back.The lone wolf strides into the arena, cutting down each obstacle in her path.She seizes victory. She claims glory. She raises everything she has high above. She belongs to the arena, but even more, she belongs to herself.",
+      "stats": {
+        "subStat": "Crit. DMG"
+      },
+      "availability": "Limited convene (version 2.4)",
+      "version": "2.4",
+      "signatureResonator": "Lupa",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/0/06/Weapon_Wildfire_Mark.png/revision/latest?cb=20250628131813"
+    },
+    {
+      "name": "Lethean Elegy",
+      "type": "Rectifier",
+      "rarity": 5,
+      "description": "I am not there. I do not die. I shall be death's companion—with euphoric delights I drown my fear, with the coming days I trade for the past.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 2.5)",
+      "version": "2.5",
+      "signatureResonator": "Phrolova",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b9/Weapon_Lethean_Elegy.png/revision/latest?cb=20250725222436"
+    },
+    {
+      "name": "Thunderflare Dominion",
+      "type": "Broadblade",
+      "rarity": 5,
+      "description": "Thunder shall purge her pain and weakness. From the crucible of blood and sand, the Sun rises. Not dimmed by dust, but ablaze in her full radiance.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 2.6)",
+      "version": "2.6",
+      "signatureResonator": "Augusta",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/e5/Weapon_Thunderflare_Dominion.png/revision/latest?cb=20250826234514"
+    },
+    {
+      "name": "Moongazer's Sigil",
+      "type": "Gauntlets",
+      "rarity": 5,
+      "description": "By what means do all things endure? By light and heat, by matter and word, by the mechanics of converging chances, by the soft dissolution into silence, by a moment that mimics the eternal... All things rise and fall in endless rhythm, each bearing its meaning. As for hers, it lies here within her grasp.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 2.6)",
+      "version": "2.6",
+      "signatureResonator": "Iuno",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/4/43/Weapon_Moongazer%27s_Sigil.png/revision/latest?cb=20250830180945"
+    },
+    {
+      "name": "Lux & Umbra",
+      "type": "Pistols",
+      "rarity": 5,
+      "description": "From darkness she seizes power, layering sins upon herself.To hunt. To kill. To deliver a relentless and fatal blow to all evil.From the light she falls, with her vows etched in her mind.For the deceased. For the living. For her pistols’ true targets.",
+      "stats": {
+        "subStat": "Crit. DMG"
+      },
+      "availability": "Limited convene (version 2.7)",
+      "version": "2.7",
+      "signatureResonator": "Galbrena",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/4/4b/Weapon_Lux_%26_Umbra.png/revision/latest?cb=20251006191518"
+    },
+    {
+      "name": "Emerald Sentence",
+      "type": "Sword",
+      "rarity": 5,
+      "description": "Bamboo, hollow yet full; People, whole yet seldom true. Bamboo speaks without deceit, acts without conceit, seeks no vanity. Few ever measure up thus.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 2.7)",
+      "version": "2.7",
+      "signatureResonator": "Qiuyuan",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/1/11/Weapon_Emerald_Sentence.png/revision/latest?cb=20251008013749"
+    },
+    {
+      "name": "Kumokiri",
+      "type": "Broadblade",
+      "rarity": 5,
+      "description": "A crimson thread emerges in the void, as if binding the structures of all things onto a single thread.At her fingertips, the endless season is drawn taut, snipped, and rewoven, until the scattered path at last converges once more upon this timeline.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 2.8)",
+      "version": "2.8",
+      "signatureResonator": "Chisa",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/4/41/Weapon_Kumokiri.png/revision/latest?cb=20251119200107"
+    },
+    {
+      "name": "Spectrum Blaster",
+      "type": "Pistols",
+      "rarity": 5,
+      "description": "Prismatic light dances at her fingertips, arcs of color carving radiant trails. Every rushing hue converges upon her aim, and at last, she reaches a sky where nothing lies beyond her sight.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 3.0)",
+      "version": "3.0",
+      "signatureResonator": "Lynae",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/ed/Weapon_Spectrum_Blaster.png/revision/latest?cb=20251225000406"
+    },
+    {
+      "name": "Starfield Calibrator",
+      "type": "Broadblade",
+      "rarity": 5,
+      "description": "Every pattern can be observed. Every phenomenon can be understood. The ideal may lie light-years away, yet the path towards it rests within her own hands.",
+      "stats": {
+        "subStat": "Energy Regen"
+      },
+      "availability": "Limited convene (version 3.0)",
+      "version": "3.0",
+      "signatureResonator": "Mornye",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/2/24/Weapon_Starfield_Calibrator.png/revision/latest?cb=20260111185954"
+    },
+    {
+      "name": "Everbright Polestar",
+      "type": "Sword",
+      "rarity": 5,
+      "description": "As you drift across the hushed sea of stars, stardust scatters beside you as time crumbles in your wake. All that remains is the unyielding loneliness, warped, diluted, and remade into the plumes of your wings.The universe sends you on a tribulation of silence, yet you travel on, repaying in radiance.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 3.1)",
+      "version": "3.1",
+      "signatureResonator": "Aemeath",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/3/34/Weapon_Everbright_Polestar.png/revision/latest?cb=20260205045035"
+    },
+    {
+      "name": "Daybreaker's Spine",
+      "type": "Gauntlets",
+      "rarity": 5,
+      "description": "Those are not ridges of the mountains, but the spine of the earth, carrying the night. They protrude from the abdomen of darkness. From the incision spills the light of new life.Your shadow was nailed to the dying night. With the breaking dawn, your flesh shall rise.Let it knock open every door of denial.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 3.1)",
+      "version": "3.1",
+      "signatureResonator": "Luuk Herssen",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/6/66/Weapon_Daybreaker%27s_Spine.png/revision/latest?cb=20260223052134"
+    },
+    {
+      "name": "Solsworn Ciphers",
+      "type": "Gauntlets",
+      "rarity": 5,
+      "description": "Sunlight gathers. The answer is made plain.What must be done awaits. The Rein is in your hand.Step forward, toward the sunlit end.",
+      "stats": {
+        "subStat": "Crit. DMG"
+      },
+      "availability": "Limited convene (version 3.2)",
+      "version": "3.2",
+      "signatureResonator": "Sigrika",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/e/ef/Weapon_Solsworn_Ciphers.png/revision/latest?cb=20260319210917"
+    },
+    {
+      "name": "Frostburn",
+      "type": "Sword",
+      "rarity": 5,
+      "description": "How keen a blade it takes to impale this unrelenting night?She presses ever forward for the answer, those unbound wishes roaring in her veins.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 3.3)",
+      "version": "3.3",
+      "signatureResonator": "Hiyuki",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/2/21/Weapon_Frostburn.png/revision/latest?cb=20260430134825"
+    },
+    {
+      "name": "Forged Dwarf Star",
+      "type": "Rectifier",
+      "rarity": 5,
+      "description": "Dream dissolves like foam, leaving only a silent white dwarf.Yet the light that once swept the cosmos remains.She waits in quiescence until her borrowed light finds its way back to the main sequence star.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 3.3)",
+      "version": "3.3",
+      "signatureResonator": "Denia",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/f/fc/Weapon_Forged_Dwarf_Star.png/revision/latest?cb=20260522190746"
+    },
+    {
+      "name": "Spectral Trigger",
+      "type": "Pistols",
+      "rarity": 5,
+      "description": "A neon glow gilds this cage of memory, same as always.I wander along old city streets, spilling unspoken words to shadows long gone.I wanna stay lost here, but the dream is fraying. I must wake up.",
+      "stats": {
+        "subStat": "Crit. DMG"
+      },
+      "availability": "Limited convene (version 3.4)",
+      "version": "3.4",
+      "signatureResonator": "Lucy",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/cd/Weapon_Spectral_Trigger.png/revision/latest?cb=20260608180829"
+    },
+    {
+      "name": "Skull Thrasher",
+      "type": "Pistols",
+      "rarity": 5,
+      "description": "Because death is a reality that cannot be undone, there's no reason to hesitate.She pulls the trigger, shattering this haunting reverie.",
+      "stats": {
+        "subStat": "Crit. DMG"
+      },
+      "availability": "Limited convene (version 3.4)",
+      "version": "3.4",
+      "signatureResonator": "Rebecca",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/7/7c/Weapon_Skull_Thrasher.png/revision/latest?cb=20260608180659"
+    },
+    {
+      "name": "Freeze Frame",
+      "type": "Rectifier",
+      "rarity": 5,
+      "description": "I remember the sunset spilling down, birds and insects threading their small songs through the greenhouse.I remember the quiet nights, my lone steps echoing the crescent moon's curve.I am my own freeze frame. I am my own afterimage.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 3.4)",
+      "version": "3.4",
+      "signatureResonator": "Lucilla",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/cd/Weapon_Freeze_Frame.png/revision/latest?cb=20260608180900"
+    },
+    {
+      "name": "Azure Oath",
+      "type": "Sword",
+      "rarity": 5,
+      "description": "Forged of flowing wind, sheathed in the azure sky. Once the blade is drawn, all sound falls still.That never-fading azure is her resolve, her vow, and her ideal.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 3.5)",
+      "version": "3.5",
+      "signatureResonator": "Yangyang: Xuanling",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/2/20/Weapon_Azure_Oath.png/revision/latest?cb=20260710081109"
+    },
+    {
+      "name": "Firstlight's Herald",
+      "type": "Rectifier",
+      "rarity": 5,
+      "description": "Dawn's glow my paper, morning dew my ink, with brush in hand, a scroll of ceaseless landscapes I paint.So the legend goes: when the divine bird lowers its gaze, the mountains hush and the rivers still.Yet, when it raises its head again to loose a piercing cry, the slumbering sun shall rise from beyond the sea of clouds.",
+      "stats": {
+        "subStat": "Energy Regen"
+      },
+      "availability": "Limited convene (version 3.5)",
+      "version": "3.5",
+      "signatureResonator": "Suisui",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3d/Weapon_Firstlight%27s_Herald.png/revision/latest?cb=20260711160127"
+    },
+    {
+      "name": "Glint of Clouds",
+      "type": "Sword",
+      "rarity": 5,
+      "description": "Wreathed in mist and cloud, still waters blend with the sky in seamless blue. Sparse shadows slant across as a rain of petals falls.May I bear this jade blade into the mortal realm, cleanse a tarnished age, and put the wicked to the sword.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 3.6)",
+      "version": "3.6",
+      "signatureResonator": "Qingxiao",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/9/9c/Weapon_Glint_of_Clouds.png/revision/latest?cb=20260820165552"
+    },
+    {
+      "name": "Thousandfold Deliverance",
+      "type": "Broadblade",
+      "rarity": 5,
+      "description": "Endless stretches the Netherworld; the long night knows no end. Ten thousand souls lie hushed, and all sound fades to silence.When cold, golden rays illuminate the Nether Gate, the sunken dreams of ages past shall at last be brought to light.",
+      "stats": {
+        "subStat": "HP"
+      },
+      "availability": "Limited convene (version 3.6)",
+      "version": "3.6",
+      "signatureResonator": "Jingran",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/5/54/Weapon_Thousandfold_Deliverance.png/revision/latest?cb=20260820165507"
+    },
+    {
+      "name": "Blooming Jadehaven",
+      "type": "Rectifier",
+      "rarity": 5,
+      "description": "Jade to pillars, gold to nexus, a hundred mechanisms meshed into one working. Infinite forms divide and proliferate among the blooms, and it still fits in the palm of Her hand. Walls and mechanisms know no feeling. What makes a life's work worth the life is not the making, but that something in it was loved.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Limited convene (version 3.7)",
+      "version": "3.7",
+      "signatureResonator": "Hsin",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/d/dd/Weapon_Blooming_Jadehaven.png/revision/latest?cb=20260930170626"
+    },
+    {
+      "name": "Unspoken Rue",
+      "type": "Sword",
+      "rarity": 5,
+      "description": "Unknown",
+      "stats": {
+        "subStat": "Unknown"
+      },
+      "availability": "Limited convene (version 3.7)",
+      "version": "3.7",
+      "signatureResonator": "Suoming",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b8/Weapon_Unspoken_Rue.png/revision/latest?cb=20260930170725"
+    },
+    {
+      "name": "Aureate Zenith",
+      "type": "Broadblade",
+      "rarity": 4,
+      "description": "A Broadblade awarded to Gladiators of exceptional merit. Its engravings draw inspiration from Griffrexes—natural-born hunters and the first allies Septimontians found in this land. Their bond needs no words, radiant and pure, like the blazing sun that watches over all.",
+      "stats": {
+        "subStat": "Crit. DMG"
+      },
+      "availability": "Battle Pass (version 2.6)",
+      "version": "2.6",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/4/4e/Weapon_Aureate_Zenith.png/revision/latest?cb=20250828210821"
+    },
+    {
+      "name": "Feather Edge",
+      "type": "Sword",
+      "rarity": 4,
+      "description": "A Sword awarded to Gladiators of exceptional merit. Its engravings draw inspiration from Griffrexes—natural-born hunters and the first allies Septimontians found in this land. Their bond needs no words, radiant and pure, like the blazing sun that watches over all.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Battle Pass (version 2.6)",
+      "version": "2.6",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/8/89/Weapon_Feather_Edge.png/revision/latest?cb=20250822223925"
+    },
+    {
+      "name": "Solar Flame",
+      "type": "Pistols",
+      "rarity": 4,
+      "description": "A pair of Pistols awarded to Gladiators of exceptional merit. Its engravings draw inspiration from Griffrexes—natural-born hunters and the first allies Septimontians found in this land. Their bond needs no words, radiant and pure, like the blazing sun that watches over all.",
+      "stats": {
+        "subStat": "Crit. Rate"
+      },
+      "availability": "Battle Pass (version 2.6)",
+      "version": "2.6",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/6/69/Weapon_Solar_Flame.png/revision/latest?cb=20250822224917"
+    },
+    {
+      "name": "Aether Strike",
+      "type": "Gauntlets",
+      "rarity": 4,
+      "description": "A pair of Gauntlets awarded to Gladiators of exceptional merit. Its engravings draw inspiration from Griffrexes—natural-born hunters and the first allies Septimontians found in this land. Their bond needs no words, radiant and pure, like the blazing sun that watches over all.",
+      "stats": {
+        "subStat": "Crit. DMG"
+      },
+      "availability": "Battle Pass (version 2.6)",
+      "version": "2.6",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1a/Weapon_Aether_Strike.png/revision/latest?cb=20250822225515"
+    },
+    {
+      "name": "Radiant Dawn",
+      "type": "Rectifier",
+      "rarity": 4,
+      "description": "A Rectifier awarded to Gladiators of exceptional merit. Its engravings draw inspiration from Griffrexes—natural-born hunters and the first allies Septimontians found in this land. Their bond needs no words, radiant and pure, like the blazing sun that watches over all.",
+      "stats": {
+        "subStat": "Crit. DMG"
+      },
+      "availability": "Battle Pass (version 2.6)",
+      "version": "2.6",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b9/Weapon_Radiant_Dawn.png/revision/latest?cb=20250822225737"
     }
   ]
 }

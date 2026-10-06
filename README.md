@@ -13,7 +13,7 @@ A comprehensive REST API for Wuthering Waves game data with an anime-themed UI i
 - **API Documentation** - Interactive documentation with examples
 - **Hamburger Menu** - Easy access to all API features
 - **Changelog** - Track updates and improvements
-- **Complete Game Data** - Comprehensive data for Wuthering Waves version 2.2
+- **Complete Game Data** - Comprehensive data for Wuthering Waves version 3.7
 - **Multiple Endpoints** - Characters, weapons, echoes, attributes, sonatas, stats, substats, and redemption codes
 - **Vercel Compatible** - Optimized for Vercel Serverless Functions
 - **Responsive Design** - Works on desktop and mobile devices
@@ -99,6 +99,14 @@ The UI components are organized in the `public` directory:
 - `js/widgets.js` - Widget component functionality
 
 ## Changelog
+
+### Version 3.7 (October 6, 2026)
+- Major data refresh: updated from game version 2.2/2.3 to 3.7
+- Added 25 new Resonators (2.4–3.7): Cartethyia, Lupa, Phrolova, Augusta, Iuno, Galbrena, Qiuyuan, Chisa, Buling, Lynae, Mornye, Aemeath, Luuk Herssen, Sigrika, Hiyuki, Denia, Lucy, Rebecca, Lucilla, Yangyang Xuanling, Suisui, Qingxiao, Jingran, Hsin, Suoming
+- Added 31 new weapons (2.3–3.7), including the 2.6 Battle Pass "Hunter's Growl" series
+- Added 21 new Sonata Effect sets (2.4–3.7)
+- API version bumped to 3.7 (`/api`, `/api/version`, `/api/info`)
+- Data sources: Game8 WuWa Wiki, Wuthering Waves Fandom Wiki
 
 ### Version 2.2 (April 22, 2025)
 - Added new UI interface with anime theme

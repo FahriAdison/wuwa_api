@@ -1,7 +1,7 @@
 /**
  * Wuthering Waves API - JavaScript Version
  * Converted from resonance-rest/api (Golang)
- * Updated for Wuthering Waves version 2.2
+ * Updated for Wuthering Waves version 3.7
  */
 
 const express = require('express');
@@ -67,7 +67,7 @@ app.use('/api', commonRoutes);
 app.get('/api', (req, res) => {
   res.json({
     message: 'Welcome to Wuthering Waves API (JavaScript Version)',
-    version: '2.2',
+    version: '3.7',
     documentation: docsURL,
     endpoints: [
       '/api/characters',

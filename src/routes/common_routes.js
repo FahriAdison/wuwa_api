@@ -14,7 +14,7 @@ const fs = require('fs');
  */
 router.get('/version', (req, res) => {
   res.json({
-    version: '2.2',
+    version: '3.7',
     game: 'Wuthering Waves',
     updated: new Date().toISOString().split('T')[0]
   });
@@ -39,7 +39,7 @@ router.get('/status', (req, res) => {
 router.get('/info', (req, res) => {
   res.json({
     name: 'Wuthering Waves API',
-    version: '2.2',
+    version: '3.7',
     description: 'REST API for Wuthering Waves game data',
     endpoints: [
       '/characters',

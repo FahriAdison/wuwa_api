@@ -9,7 +9,11 @@
         "2piece": "Increases Aero DMG by 15%",
         "4piece": "After using a Forte Skill, increases Movement SPD by 10% and ATK by 18% for 8s"
       },
-      "recommendedFor": ["Ciaccona", "Jiyan", "Aalto"],
+      "recommendedFor": [
+        "Ciaccona",
+        "Jiyan",
+        "Aalto"
+      ],
       "version": "2.2"
     },
     {
@@ -21,7 +25,10 @@
         "2piece": "Increases Electro DMG by 15%",
         "4piece": "After using a Forte Skill, the next Basic Attack has a 80% chance to deal 40% additional Electro DMG"
       },
-      "recommendedFor": ["Calcharo", "Lumi"],
+      "recommendedFor": [
+        "Calcharo",
+        "Lumi"
+      ],
       "version": "1.0"
     },
     {
@@ -33,7 +40,11 @@
         "2piece": "Increases Fusion DMG by 15%",
         "4piece": "When HP is above 70%, increases CRIT Rate by 12% and CRIT DMG by 24%"
       },
-      "recommendedFor": ["Changli", "Encore", "Brant"],
+      "recommendedFor": [
+        "Changli",
+        "Encore",
+        "Brant"
+      ],
       "version": "1.0"
     },
     {
@@ -45,7 +56,10 @@
         "2piece": "Increases Glacio DMG by 15%",
         "4piece": "After using a Forte Skill, creates a shield equal to 20% of Max HP for 10s. While shielded, increases DMG by 15%"
       },
-      "recommendedFor": ["Baizhi", "Carlotta"],
+      "recommendedFor": [
+        "Baizhi",
+        "Carlotta"
+      ],
       "version": "1.0"
     },
     {
@@ -57,7 +71,10 @@
         "2piece": "Increases Havoc DMG by 15%",
         "4piece": "After using a Forte Skill, gain a random buff for 10s: 25% ATK, 20% CRIT DMG, or 12% CRIT Rate"
       },
-      "recommendedFor": ["Cantarella", "Camellya"],
+      "recommendedFor": [
+        "Cantarella",
+        "Camellya"
+      ],
       "version": "2.2"
     },
     {
@@ -69,7 +86,10 @@
         "2piece": "Increases Spectro DMG by 15%",
         "4piece": "After using a Forte Skill, increases all Elemental DMG by 12% for 8s"
       },
-      "recommendedFor": ["Jinhsi", "Shorekeeper"],
+      "recommendedFor": [
+        "Jinhsi",
+        "Shorekeeper"
+      ],
       "version": "1.0"
     },
     {
@@ -81,7 +101,11 @@
         "2piece": "Increases ATK by 12%",
         "4piece": "After defeating an enemy, increases ATK by 15% for 15s, stacks up to 3 times"
       },
-      "recommendedFor": ["Danjin", "Chixia", "Lingyang"],
+      "recommendedFor": [
+        "Danjin",
+        "Chixia",
+        "Lingyang"
+      ],
       "version": "1.0"
     },
     {
@@ -93,8 +117,261 @@
         "2piece": "Increases Max HP by 20%",
         "4piece": "When healing an ally, 30% of the healing amount is converted to a shield that lasts for 8s"
       },
-      "recommendedFor": ["Support characters"],
+      "recommendedFor": [
+        "Support characters"
+      ],
       "version": "2.2"
+    },
+    {
+      "name": "Flaming Clawprint",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 2.4.",
+      "effects": {
+        "2piece": "Fusion DMG +10%",
+        "5piece": "Casting Resonance Liberation: whole team +15% Fusion DMG, caster +20% Resonance Liberation DMG for 35s"
+      },
+      "recommendedFor": [],
+      "version": "2.4",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/8/87/Icon_Flaming_Clawprint.png/revision/latest?cb=20260207025300"
+    },
+    {
+      "name": "Dream of the Lost",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 2.5.",
+      "effects": {
+        "2piece": "3-piece set",
+        "5piece": "When Resonance Energy is 0: Crit Rate +20%, Echo Skill DMG +35%"
+      },
+      "recommendedFor": [],
+      "version": "2.5",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/f/fe/Icon_Dream_of_the_Lost.png/revision/latest?cb=20260207024615"
+    },
+    {
+      "name": "Crown of Valor",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 2.6.",
+      "effects": {
+        "2piece": "3-piece set",
+        "5piece": "When gaining a Shield: ATK +6%, Crit DMG +4% for 4s"
+      },
+      "recommendedFor": [],
+      "version": "2.6",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1d/Icon_Crown_of_Valor.png/revision/latest?cb=20260207024813"
+    },
+    {
+      "name": "Law of Harmony",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 2.6.",
+      "effects": {
+        "2piece": "3-piece set",
+        "5piece": "Casting Echo Skill: +30% Heavy Attack DMG Bonus"
+      },
+      "recommendedFor": [],
+      "version": "2.6",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c8/Icon_Law_of_Harmony.png/revision/latest?cb=20260207025722"
+    },
+    {
+      "name": "Flamewing's Shadow",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 2.7.",
+      "effects": {
+        "2piece": "3-piece set",
+        "5piece": "Echo Skill DMG: Heavy Attack Crit Rate +20% for 6s"
+      },
+      "recommendedFor": [],
+      "version": "2.7"
+    },
+    {
+      "name": "Thread of Severed Fate",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 2.8.",
+      "effects": {
+        "2piece": "3-piece set",
+        "5piece": "Inflicting Havoc Bane: ATK +20%, Resonance Liberation DMG +30%"
+      },
+      "recommendedFor": [],
+      "version": "2.8",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/cb/Icon_Thread_of_Severed_Fate.png/revision/latest?cb=20260207030427"
+    },
+    {
+      "name": "Pact of Neonlight Leap",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.0.",
+      "effects": {
+        "2piece": "Spectro DMG +10%",
+        "5piece": "Casting Outro Skill: whole team +16% ATK for 30s"
+      },
+      "recommendedFor": [],
+      "version": "3.0",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/d/de/Icon_Pact_of_Neonlight_Leap.png/revision/latest?cb=20260207030148"
+    },
+    {
+      "name": "Halo of Starry Radiance",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.0.",
+      "effects": {
+        "2piece": "Healing Bonus +10%",
+        "5piece": "5-piece effect related to Off-Tune Buildup"
+      },
+      "recommendedFor": [],
+      "version": "3.0",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/ce/Icon_Halo_of_Starry_Radiance.png/revision/latest?cb=20260207025604"
+    },
+    {
+      "name": "Rite of Gilded Revelation",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.0.",
+      "effects": {
+        "2piece": "Spectro DMG +10%",
+        "5piece": "5-piece: Basic Attack grants bonus Spectro DMG"
+      },
+      "recommendedFor": [],
+      "version": "3.0",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/a/a1/Icon_Rite_of_Gilded_Revelation.png/revision/latest?cb=20260207030237"
+    },
+    {
+      "name": "Chromatic Foam",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.1.",
+      "effects": {
+        "2piece": "Fusion DMG +10%",
+        "5piece": "Resonance Skill Crit Rate +20%; casting Resonance Skill: +40% Fusion DMG for 5s"
+      },
+      "recommendedFor": [],
+      "version": "3.1",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/ce/Icon_Chromatic_Foam.png/revision/latest?cb=20260205042741"
+    },
+    {
+      "name": "Sound of True Name",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.1.",
+      "effects": {
+        "2piece": "Aero DMG +10%",
+        "5piece": "5-piece: Echo Skill DMG and Crit bonuses"
+      },
+      "recommendedFor": [],
+      "version": "3.1",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/7/7c/Icon_Sound_of_True_Name.png/revision/latest?cb=20260205042802"
+    },
+    {
+      "name": "Trailblazing Star",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.1.",
+      "effects": {
+        "2piece": "Fusion DMG +10%",
+        "5piece": "5-piece related to Fusion Burst/Tune Rupture and Crit"
+      },
+      "recommendedFor": [],
+      "version": "3.1",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/0/07/Icon_Trailblazing_Star.png/revision/latest?cb=20260205042651"
+    },
+    {
+      "name": "Reel of Spliced Memories",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.3.",
+      "effects": {
+        "2piece": "ATK +10%",
+        "5piece": "5-piece related to Tune Rupture/Tune Strain"
+      },
+      "recommendedFor": [],
+      "version": "3.3",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/0/05/Icon_Reel_of_Spliced_Memories.png/revision/latest?cb=20260430212817"
+    },
+    {
+      "name": "Wishes of Quiet Snowfall",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.3.",
+      "effects": {
+        "2piece": "Glacio DMG +10%",
+        "5piece": "5-piece related to Glacio Chafe"
+      },
+      "recommendedFor": [],
+      "version": "3.3",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/1/17/Icon_Wishes_of_Quiet_Snowfall.png/revision/latest?cb=20260430212601"
+    },
+    {
+      "name": "Shadow of Shattered Dreams",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.4.",
+      "effects": {
+        "2piece": "1-piece set (unique)",
+        "5piece": "1-piece related to the 'Hack - Shifting' status"
+      },
+      "recommendedFor": [],
+      "version": "3.4",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/f/fe/Icon_Shadow_of_Shattered_Dreams.png/revision/latest?cb=20260611174020"
+    },
+    {
+      "name": "Heart of Evil's Purge",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.5.",
+      "effects": {
+        "2piece": "Aero DMG +10%",
+        "5piece": "5-piece related to Tune Strain - Shifting"
+      },
+      "recommendedFor": [],
+      "version": "3.5",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/2/20/Icon_Heart_of_Evil%27s_Purge.png/revision/latest?cb=20260710111846"
+    },
+    {
+      "name": "Lamp of Nether Road",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.5.",
+      "effects": {
+        "2piece": "HP +10%",
+        "5piece": "5-piece related to Shield and Crit"
+      },
+      "recommendedFor": [],
+      "version": "3.5",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/1/10/Icon_Lamp_of_Nether_Road.png/revision/latest?cb=20260710112017"
+    },
+    {
+      "name": "Song of Feathered Trace",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.5.",
+      "effects": {
+        "2piece": "Energy Regen +10%",
+        "5piece": "5-piece related to Havoc Bane/Glacio Chafe feathers"
+      },
+      "recommendedFor": [],
+      "version": "3.5",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/4/49/Icon_Song_of_Feathered_Trace.png/revision/latest?cb=20260710111517"
+    },
+    {
+      "name": "Flash of Electric Reflection",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.7.",
+      "effects": {
+        "2piece": "Electro DMG +10%",
+        "5piece": "5-piece effect (see wiki for full details)"
+      },
+      "recommendedFor": [],
+      "version": "3.7",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/6/6f/Icon_Flash_of_Electric_Reflection.png/revision/latest?cb=20261002082243"
+    },
+    {
+      "name": "Flower of Tinged Yearning",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.7.",
+      "effects": {
+        "2piece": "Energy Regen +10%",
+        "5piece": "5-piece effect (see wiki for full details)"
+      },
+      "recommendedFor": [],
+      "version": "3.7",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/c/c9/Icon_Flower_of_Tinged_Yearning.png/revision/latest?cb=20261002082234"
+    },
+    {
+      "name": "Heart of Sworn Vigil",
+      "rarity": 5,
+      "description": "A Sonata Effect set released in version 3.7.",
+      "effects": {
+        "2piece": "See wiki for 2-piece effect",
+        "5piece": "5-piece effect (see wiki for full details)"
+      },
+      "recommendedFor": [],
+      "version": "3.7",
+      "imageUrl": "https://static.wikia.nocookie.net/wutheringwaves/images/1/10/Icon_Heart_of_Sworn_Vigil.png/revision/latest?cb=20261002082238"
     }
   ]
 }
